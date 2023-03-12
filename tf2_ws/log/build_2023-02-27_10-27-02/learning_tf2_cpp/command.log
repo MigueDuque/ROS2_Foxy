@@ -1,0 +1,1 @@
+Invoking command in '/home/migue/tf2_ws/build/learning_tf2_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/migue/tf2_ws/install/learning_tf2_py:/opt/ros/foxy /usr/bin/cmake --build /home/migue/tf2_ws/build/learning_tf2_cpp -- -j12 -l12

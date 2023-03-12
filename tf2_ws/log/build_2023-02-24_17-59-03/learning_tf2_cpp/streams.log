@@ -1,0 +1,23 @@
+[0.088s] Invoking command in '/home/migue/tf2_ws/build/learning_tf2_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/migue/tf2_ws/build/learning_tf2_cpp -- -j12 -l12
+[0.226s] [35m[1mScanning dependencies of target turtle_tf2_listener[0m
+[0.252s] [ 16%] Built target turtle_tf2_broadcaster
+[0.290s] [ 33%] Built target dynamic_frame_tf2_broadcaster
+[0.305s] [ 50%] Built target fixed_frame_tf2_broadcaster
+[0.312s] [ 66%] Built target static_turtle_tf2_broadcaster
+[0.410s] [ 75%] [32mBuilding CXX object CMakeFiles/turtle_tf2_listener_debug.dir/src/turtle_tf2_listener_debug.cpp.o[0m
+[0.411s] [ 83%] [32mBuilding CXX object CMakeFiles/turtle_tf2_listener.dir/src/turtle_tf2_listener.cpp.o[0m
+[2.043s] [01m[K/home/migue/tf2_ws/src/learning_tf2_cpp/src/turtle_tf2_listener_debug.cpp:[m[K In member function ‘[01m[Kvoid FrameListener::on_timer()[m[K’:
+[2.043s] [01m[K/home/migue/tf2_ws/src/learning_tf2_cpp/src/turtle_tf2_listener_debug.cpp:60:11:[m[K [01;31m[Kerror: [m[K‘[01m[KtransformStamped[m[K’ was not declared in this scope
+[2.043s]    60 |           [01;31m[KtransformStamped[m[K = tf_buffer_->lookupTransform(
+[2.043s]       |           [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[2.070s] [01m[K/home/migue/tf2_ws/src/learning_tf2_cpp/src/turtle_tf2_listener.cpp:[m[K In member function ‘[01m[Kvoid FrameListener::on_timer()[m[K’:
+[2.070s] [01m[K/home/migue/tf2_ws/src/learning_tf2_cpp/src/turtle_tf2_listener.cpp:60:11:[m[K [01;31m[Kerror: [m[K‘[01m[KtransformStamped[m[K’ was not declared in this scope
+[2.070s]    60 |           [01;31m[KtransformStamped[m[K = tf_buffer_->lookupTransform(
+[2.070s]       |           [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[3.131s] make[2]: *** [CMakeFiles/turtle_tf2_listener_debug.dir/build.make:63: CMakeFiles/turtle_tf2_listener_debug.dir/src/turtle_tf2_listener_debug.cpp.o] Error 1
+[3.132s] make[1]: *** [CMakeFiles/Makefile2:169: CMakeFiles/turtle_tf2_listener_debug.dir/all] Error 2
+[3.132s] make[1]: *** Waiting for unfinished jobs....
+[3.146s] make[2]: *** [CMakeFiles/turtle_tf2_listener.dir/build.make:63: CMakeFiles/turtle_tf2_listener.dir/src/turtle_tf2_listener.cpp.o] Error 1
+[3.147s] make[1]: *** [CMakeFiles/Makefile2:277: CMakeFiles/turtle_tf2_listener.dir/all] Error 2
+[3.147s] make: *** [Makefile:141: all] Error 2
+[3.151s] Invoked command in '/home/migue/tf2_ws/build/learning_tf2_cpp' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/migue/tf2_ws/build/learning_tf2_cpp -- -j12 -l12

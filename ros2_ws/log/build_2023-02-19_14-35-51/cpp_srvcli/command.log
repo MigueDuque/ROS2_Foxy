@@ -1,0 +1,2 @@
+Invoking command in '/home/migue/ros2_ws/build/cpp_srvcli': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/migue/ros2_ws/build/cpp_srvcli -- -j12 -l12
+Invoked command in '/home/migue/ros2_ws/build/cpp_srvcli' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/migue/ros2_ws/build/cpp_srvcli -- -j12 -l12

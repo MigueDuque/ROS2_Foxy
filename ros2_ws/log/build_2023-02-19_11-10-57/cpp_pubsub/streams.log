@@ -1,0 +1,46 @@
+[0.017s] Invoking command in '/home/migue/ros2_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/migue/ros2_ws/build/cpp_pubsub -- -j12 -l12
+[0.106s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.128s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.502s] -- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.773s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.863s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.366s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.662s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.677s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.962s] -- Found ament_lint_auto: 0.9.7 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[2.167s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.186s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.186s] -- Configured cppcheck include dirs: 
+[2.186s] -- Configured cppcheck exclude dirs and/or files: 
+[2.188s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.188s] -- Configured cpplint exclude dirs and/or files: 
+[2.190s] -- Added test 'lint_cmake' to check CMake code style
+[2.191s] -- Added test 'uncrustify' to check C / C++ code style
+[2.192s] -- Configured uncrustify additional arguments: 
+[2.192s] -- Added test 'xmllint' to check XML markup files
+[2.196s] -- Configuring done
+[2.353s] -- Generating done
+[2.354s] -- Build files have been written to: /home/migue/ros2_ws/build/cpp_pubsub
+[2.526s] [ 50%] Built target talker
+[2.526s] [100%] Built target listener
+[2.537s] Invoked command in '/home/migue/ros2_ws/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/migue/ros2_ws/build/cpp_pubsub -- -j12 -l12
+[2.580s] Invoking command in '/home/migue/ros2_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/migue/ros2_ws/build/cpp_pubsub
+[2.589s] -- Install configuration: ""
+[2.618s] -- Up-to-date: /home/migue/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/talker
+[2.640s] -- Up-to-date: /home/migue/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/listener
+[2.641s] -- Up-to-date: /home/migue/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/package_run_dependencies/cpp_pubsub
+[2.641s] -- Up-to-date: /home/migue/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/parent_prefix_path/cpp_pubsub
+[2.641s] -- Up-to-date: /home/migue/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.sh
+[2.642s] -- Installing: /home/migue/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.dsv
+[2.642s] -- Up-to-date: /home/migue/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.sh
+[2.642s] -- Installing: /home/migue/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.dsv
+[2.642s] -- Up-to-date: /home/migue/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.bash
+[2.643s] -- Up-to-date: /home/migue/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.sh
+[2.643s] -- Up-to-date: /home/migue/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.zsh
+[2.643s] -- Installing: /home/migue/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.dsv
+[2.643s] -- Installing: /home/migue/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/package.dsv
+[2.643s] -- Up-to-date: /home/migue/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/packages/cpp_pubsub
+[2.643s] -- Up-to-date: /home/migue/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig.cmake
+[2.644s] -- Up-to-date: /home/migue/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig-version.cmake
+[2.644s] -- Up-to-date: /home/migue/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/package.xml
+[2.646s] Invoked command in '/home/migue/ros2_ws/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/migue/ros2_ws/build/cpp_pubsub

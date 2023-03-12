@@ -1,0 +1,33 @@
+[0.015s] Invoking command in '/home/migue/ros2_ws/build/action_tutorials_cpp': AMENT_PREFIX_PATH=/home/migue/ros2_ws/install/action_tutorials_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/migue/ros2_ws/install/action_tutorials_interfaces:/opt/ros/foxy LD_LIBRARY_PATH=/home/migue/ros2_ws/install/action_tutorials_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/migue/ros2_ws/install/action_tutorials_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/migue/ros2_ws/build/action_tutorials_cpp -- -j12 -l12
+[0.067s] [35m[1mScanning dependencies of target action_client[0m
+[0.082s] [ 50%] Built target action_server
+[0.082s] [ 50%] Built target fibonacci_action_client
+[0.089s] [ 75%] Built target fibonacci_action_server
+[0.158s] [ 87%] [32mBuilding CXX object CMakeFiles/action_client.dir/src/fibonacci_action_client.cpp.o[0m
+[6.424s] [100%] [32m[1mLinking CXX shared library libaction_client.so[0m
+[7.443s] [100%] Built target action_client
+[7.457s] Invoked command in '/home/migue/ros2_ws/build/action_tutorials_cpp' returned '0': AMENT_PREFIX_PATH=/home/migue/ros2_ws/install/action_tutorials_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/migue/ros2_ws/install/action_tutorials_interfaces:/opt/ros/foxy LD_LIBRARY_PATH=/home/migue/ros2_ws/install/action_tutorials_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/migue/ros2_ws/install/action_tutorials_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/migue/ros2_ws/build/action_tutorials_cpp -- -j12 -l12
+[7.489s] Invoking command in '/home/migue/ros2_ws/build/action_tutorials_cpp': AMENT_PREFIX_PATH=/home/migue/ros2_ws/install/action_tutorials_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/migue/ros2_ws/install/action_tutorials_interfaces:/opt/ros/foxy LD_LIBRARY_PATH=/home/migue/ros2_ws/install/action_tutorials_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/migue/ros2_ws/install/action_tutorials_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/migue/ros2_ws/build/action_tutorials_cpp
+[7.502s] -- Install configuration: ""
+[7.503s] -- Up-to-date: /home/migue/ros2_ws/install/action_tutorials_cpp/lib/action_tutorials_cpp/fibonacci_action_client
+[7.503s] -- Up-to-date: /home/migue/ros2_ws/install/action_tutorials_cpp/lib/action_tutorials_cpp/fibonacci_action_server
+[7.503s] -- Up-to-date: /home/migue/ros2_ws/install/action_tutorials_cpp/lib/libaction_server.so
+[7.503s] -- Installing: /home/migue/ros2_ws/install/action_tutorials_cpp/lib/libaction_client.so
+[7.505s] -- Set runtime path of "/home/migue/ros2_ws/install/action_tutorials_cpp/lib/libaction_client.so" to ""
+[7.505s] -- Up-to-date: /home/migue/ros2_ws/install/action_tutorials_cpp/share/ament_index/resource_index/package_run_dependencies/action_tutorials_cpp
+[7.505s] -- Up-to-date: /home/migue/ros2_ws/install/action_tutorials_cpp/share/ament_index/resource_index/parent_prefix_path/action_tutorials_cpp
+[7.505s] -- Up-to-date: /home/migue/ros2_ws/install/action_tutorials_cpp/share/action_tutorials_cpp/environment/ament_prefix_path.sh
+[7.506s] -- Up-to-date: /home/migue/ros2_ws/install/action_tutorials_cpp/share/action_tutorials_cpp/environment/ament_prefix_path.dsv
+[7.506s] -- Up-to-date: /home/migue/ros2_ws/install/action_tutorials_cpp/share/action_tutorials_cpp/environment/path.sh
+[7.506s] -- Up-to-date: /home/migue/ros2_ws/install/action_tutorials_cpp/share/action_tutorials_cpp/environment/path.dsv
+[7.506s] -- Up-to-date: /home/migue/ros2_ws/install/action_tutorials_cpp/share/action_tutorials_cpp/local_setup.bash
+[7.506s] -- Up-to-date: /home/migue/ros2_ws/install/action_tutorials_cpp/share/action_tutorials_cpp/local_setup.sh
+[7.506s] -- Up-to-date: /home/migue/ros2_ws/install/action_tutorials_cpp/share/action_tutorials_cpp/local_setup.zsh
+[7.506s] -- Up-to-date: /home/migue/ros2_ws/install/action_tutorials_cpp/share/action_tutorials_cpp/local_setup.dsv
+[7.506s] -- Installing: /home/migue/ros2_ws/install/action_tutorials_cpp/share/action_tutorials_cpp/package.dsv
+[7.507s] -- Up-to-date: /home/migue/ros2_ws/install/action_tutorials_cpp/share/ament_index/resource_index/packages/action_tutorials_cpp
+[7.507s] -- Up-to-date: /home/migue/ros2_ws/install/action_tutorials_cpp/share/ament_index/resource_index/rclcpp_components/action_tutorials_cpp
+[7.507s] -- Up-to-date: /home/migue/ros2_ws/install/action_tutorials_cpp/share/action_tutorials_cpp/cmake/action_tutorials_cppConfig.cmake
+[7.507s] -- Up-to-date: /home/migue/ros2_ws/install/action_tutorials_cpp/share/action_tutorials_cpp/cmake/action_tutorials_cppConfig-version.cmake
+[7.507s] -- Up-to-date: /home/migue/ros2_ws/install/action_tutorials_cpp/share/action_tutorials_cpp/package.xml
+[7.509s] Invoked command in '/home/migue/ros2_ws/build/action_tutorials_cpp' returned '0': AMENT_PREFIX_PATH=/home/migue/ros2_ws/install/action_tutorials_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/migue/ros2_ws/install/action_tutorials_interfaces:/opt/ros/foxy LD_LIBRARY_PATH=/home/migue/ros2_ws/install/action_tutorials_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/migue/ros2_ws/install/action_tutorials_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/migue/ros2_ws/build/action_tutorials_cpp

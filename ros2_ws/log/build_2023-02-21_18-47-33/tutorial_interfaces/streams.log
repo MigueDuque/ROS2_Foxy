@@ -1,0 +1,15 @@
+[0.145s] Invoking command in '/home/migue/ros2_ws/build/tutorial_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/migue/ros2_ws/build/tutorial_interfaces -- -j12 -l12
+[1.291s] [  2%] Built target tutorial_interfaces__cpp
+[1.431s] [ 12%] Built target tutorial_interfaces__rosidl_generator_c
+[1.433s] [ 23%] Built target tutorial_interfaces__rosidl_typesupport_cpp
+[1.434s] [ 34%] Built target tutorial_interfaces__rosidl_typesupport_fastrtps_cpp
+[1.435s] [ 44%] Built target tutorial_interfaces__rosidl_typesupport_introspection_cpp
+[1.522s] [ 55%] Built target tutorial_interfaces__rosidl_typesupport_c
+[1.530s] [ 65%] Built target tutorial_interfaces__rosidl_typesupport_fastrtps_c
+[1.538s] [ 76%] Built target tutorial_interfaces__rosidl_typesupport_introspection_c
+[1.566s] [ 76%] Built target tutorial_interfaces
+[1.599s] [ 78%] Built target tutorial_interfaces__py
+[1.636s] [ 87%] Built target tutorial_interfaces__python
+[1.675s] [ 91%] Built target tutorial_interfaces__rosidl_typesupport_introspection_c__pyext
+[1.679s] [ 95%] Built target tutorial_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[1.687s] [100%] Built target tutorial_interfaces__rosidl_typesupport_c__pyext

@@ -1,0 +1,28 @@
+[0.133s] Invoking command in '/home/migue/ros2_ws/build/cpp_pubsub': AMENT_PREFIX_PATH=/home/migue/ros2_ws/install/tutorial_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/migue/ros2_ws/install/tutorial_interfaces:/opt/ros/foxy LD_LIBRARY_PATH=/home/migue/ros2_ws/install/tutorial_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/migue/ros2_ws/install/tutorial_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/migue/ros2_ws/build/cpp_pubsub -- -j12 -l12
+[0.203s] [35m[1mScanning dependencies of target talker[0m
+[0.254s] [ 50%] Built target listener
+[0.338s] [ 75%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o[0m
+[6.281s] [100%] [32m[1mLinking CXX executable talker[0m
+[7.268s] [100%] Built target talker
+[7.284s] Invoked command in '/home/migue/ros2_ws/build/cpp_pubsub' returned '0': AMENT_PREFIX_PATH=/home/migue/ros2_ws/install/tutorial_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/migue/ros2_ws/install/tutorial_interfaces:/opt/ros/foxy LD_LIBRARY_PATH=/home/migue/ros2_ws/install/tutorial_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/migue/ros2_ws/install/tutorial_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/migue/ros2_ws/build/cpp_pubsub -- -j12 -l12
+[7.310s] Invoking command in '/home/migue/ros2_ws/build/cpp_pubsub': AMENT_PREFIX_PATH=/home/migue/ros2_ws/install/tutorial_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/migue/ros2_ws/install/tutorial_interfaces:/opt/ros/foxy LD_LIBRARY_PATH=/home/migue/ros2_ws/install/tutorial_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/migue/ros2_ws/install/tutorial_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/migue/ros2_ws/build/cpp_pubsub
+[7.319s] -- Install configuration: ""
+[7.357s] -- Installing: /home/migue/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/talker
+[7.359s] -- Set runtime path of "/home/migue/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/talker" to ""
+[7.377s] -- Up-to-date: /home/migue/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/listener
+[7.377s] -- Up-to-date: /home/migue/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/package_run_dependencies/cpp_pubsub
+[7.377s] -- Up-to-date: /home/migue/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/parent_prefix_path/cpp_pubsub
+[7.377s] -- Up-to-date: /home/migue/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.sh
+[7.378s] -- Up-to-date: /home/migue/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.dsv
+[7.378s] -- Up-to-date: /home/migue/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.sh
+[7.378s] -- Up-to-date: /home/migue/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.dsv
+[7.378s] -- Up-to-date: /home/migue/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.bash
+[7.378s] -- Up-to-date: /home/migue/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.sh
+[7.378s] -- Up-to-date: /home/migue/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.zsh
+[7.378s] -- Up-to-date: /home/migue/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.dsv
+[7.378s] -- Installing: /home/migue/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/package.dsv
+[7.388s] -- Up-to-date: /home/migue/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/packages/cpp_pubsub
+[7.388s] -- Up-to-date: /home/migue/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig.cmake
+[7.389s] -- Up-to-date: /home/migue/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig-version.cmake
+[7.389s] -- Up-to-date: /home/migue/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/package.xml
+[7.391s] Invoked command in '/home/migue/ros2_ws/build/cpp_pubsub' returned '0': AMENT_PREFIX_PATH=/home/migue/ros2_ws/install/tutorial_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/migue/ros2_ws/install/tutorial_interfaces:/opt/ros/foxy LD_LIBRARY_PATH=/home/migue/ros2_ws/install/tutorial_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/migue/ros2_ws/install/tutorial_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/migue/ros2_ws/build/cpp_pubsub

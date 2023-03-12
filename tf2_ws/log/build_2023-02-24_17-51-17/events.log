@@ -1,0 +1,205 @@
+[0.000000] (-) TimerEvent: {}
+[0.000335] (learning_tf2_cpp) JobQueued: {'identifier': 'learning_tf2_cpp', 'dependencies': OrderedDict()}
+[0.000403] (learning_tf2_cpp) JobStarted: {'identifier': 'learning_tf2_cpp'}
+[0.067564] (learning_tf2_cpp) JobProgress: {'identifier': 'learning_tf2_cpp', 'progress': 'cmake'}
+[0.098686] (-) TimerEvent: {}
+[0.113533] (learning_tf2_cpp) JobProgress: {'identifier': 'learning_tf2_cpp', 'progress': 'build'}
+[0.115604] (learning_tf2_cpp) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/migue/tf2_ws/build/learning_tf2_cpp', '--', '-j12', '-l12'], 'cwd': '/home/migue/tf2_ws/build/learning_tf2_cpp', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'migue'), ('LC_TIME', 'es_CO.UTF-8'), ('SSH_AGENT_PID', '1860'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/migue'), ('OLDPWD', '/home/migue'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'es_CO.UTF-8'), ('MANAGERPID', '1667'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/foxy/'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/migue/tf2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'migue'), ('JOURNAL_STREAM', '8:53607'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'migue'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/migue/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/migue:@/tmp/.ICE-unix/1926,unix/migue:/tmp/.ICE-unix/1926'), ('INVOCATION_ID', '78f10d04cc144a4aa51987d48a62e7c5'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'es_CO.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/511e60e7_7662_4fb9_8e88_e992552cde2c'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'es_CO.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.337'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/migue/tf2_ws/install/learning_tf2_cpp:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_CO.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'es_CO.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'es_CO.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/migue/tf2_ws/build/learning_tf2_cpp'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'es_CO.UTF-8'), ('LC_PAPER', 'es_CO.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/migue/tf2_ws/install/learning_tf2_cpp:/opt/ros/foxy')]), 'shell': False}
+[0.198926] (-) TimerEvent: {}
+[0.299530] (-) TimerEvent: {}
+[0.400136] (-) TimerEvent: {}
+[0.500917] (-) TimerEvent: {}
+[0.601521] (-) TimerEvent: {}
+[0.702105] (-) TimerEvent: {}
+[0.730614] (learning_tf2_cpp) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.802274] (-) TimerEvent: {}
+[0.810511] (learning_tf2_cpp) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.902417] (-) TimerEvent: {}
+[1.002958] (-) TimerEvent: {}
+[1.103493] (-) TimerEvent: {}
+[1.121256] (learning_tf2_cpp) StdoutLine: {'line': b'-- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)\n'}
+[1.203684] (-) TimerEvent: {}
+[1.296557] (learning_tf2_cpp) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.303812] (-) TimerEvent: {}
+[1.334002] (learning_tf2_cpp) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[1.404032] (-) TimerEvent: {}
+[1.504552] (-) TimerEvent: {}
+[1.604986] (-) TimerEvent: {}
+[1.673882] (learning_tf2_cpp) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.705187] (-) TimerEvent: {}
+[1.805769] (-) TimerEvent: {}
+[1.859428] (learning_tf2_cpp) StdoutLine: {'line': b'-- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[1.905943] (-) TimerEvent: {}
+[2.006465] (-) TimerEvent: {}
+[2.019337] (learning_tf2_cpp) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[2.023568] (learning_tf2_cpp) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[2.106602] (-) TimerEvent: {}
+[2.207059] (-) TimerEvent: {}
+[2.262918] (learning_tf2_cpp) StdoutLine: {'line': b'-- Found tf2: 0.13.13 (/opt/ros/foxy/share/tf2/cmake)\n'}
+[2.307235] (-) TimerEvent: {}
+[2.310102] (learning_tf2_cpp) StdoutLine: {'line': b'-- Found tf2_ros: 0.13.13 (/opt/ros/foxy/share/tf2_ros/cmake)\n'}
+[2.407422] (-) TimerEvent: {}
+[2.507950] (-) TimerEvent: {}
+[2.608514] (-) TimerEvent: {}
+[2.709067] (-) TimerEvent: {}
+[2.736240] (learning_tf2_cpp) StdoutLine: {'line': b'-- Found turtlesim: 1.2.6 (/opt/ros/foxy/share/turtlesim/cmake)\n'}
+[2.809268] (-) TimerEvent: {}
+[2.817173] (learning_tf2_cpp) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.7 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[2.909477] (-) TimerEvent: {}
+[3.010007] (-) TimerEvent: {}
+[3.033607] (learning_tf2_cpp) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[3.034712] (learning_tf2_cpp) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[3.035149] (learning_tf2_cpp) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[3.035398] (learning_tf2_cpp) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[3.035884] (learning_tf2_cpp) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[3.036269] (learning_tf2_cpp) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[3.036650] (learning_tf2_cpp) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[3.036848] (learning_tf2_cpp) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[3.037301] (learning_tf2_cpp) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257\n"}
+[3.038165] (learning_tf2_cpp) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[3.038283] (learning_tf2_cpp) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[3.038857] (learning_tf2_cpp) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[3.042377] (learning_tf2_cpp) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.110435] (-) TimerEvent: {}
+[3.210990] (-) TimerEvent: {}
+[3.311478] (-) TimerEvent: {}
+[3.311981] (learning_tf2_cpp) StdoutLine: {'line': b'-- Generating done\n'}
+[3.317552] (learning_tf2_cpp) StdoutLine: {'line': b'-- Build files have been written to: /home/migue/tf2_ws/build/learning_tf2_cpp\n'}
+[3.350279] (learning_tf2_cpp) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target turtle_tf2_listener_debug\x1b[0m\n'}
+[3.411640] (-) TimerEvent: {}
+[3.453161] (learning_tf2_cpp) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target turtle_tf2_broadcaster\x1b[0m\n'}
+[3.453829] (learning_tf2_cpp) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target turtle_tf2_listener\x1b[0m\n'}
+[3.457140] (learning_tf2_cpp) StdoutLine: {'line': b'[ 16%] Built target static_turtle_tf2_broadcaster\n'}
+[3.463513] (learning_tf2_cpp) StdoutLine: {'line': b'[ 33%] Built target fixed_frame_tf2_broadcaster\n'}
+[3.513390] (-) TimerEvent: {}
+[3.525316] (learning_tf2_cpp) StdoutLine: {'line': b'[ 50%] Built target dynamic_frame_tf2_broadcaster\n'}
+[3.587869] (learning_tf2_cpp) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding CXX object CMakeFiles/turtle_tf2_broadcaster.dir/src/turtle_tf2_broadcaster.cpp.o\x1b[0m\n'}
+[3.606291] (learning_tf2_cpp) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/turtle_tf2_listener.dir/src/turtle_tf2_listener.cpp.o\x1b[0m\n'}
+[3.613557] (-) TimerEvent: {}
+[3.714143] (-) TimerEvent: {}
+[3.814680] (-) TimerEvent: {}
+[3.915236] (-) TimerEvent: {}
+[4.015777] (-) TimerEvent: {}
+[4.116345] (-) TimerEvent: {}
+[4.216944] (-) TimerEvent: {}
+[4.317519] (-) TimerEvent: {}
+[4.418034] (-) TimerEvent: {}
+[4.518575] (-) TimerEvent: {}
+[4.619104] (-) TimerEvent: {}
+[4.719900] (-) TimerEvent: {}
+[4.820446] (-) TimerEvent: {}
+[4.921011] (-) TimerEvent: {}
+[5.021527] (-) TimerEvent: {}
+[5.122017] (-) TimerEvent: {}
+[5.222572] (-) TimerEvent: {}
+[5.323132] (-) TimerEvent: {}
+[5.423675] (-) TimerEvent: {}
+[5.524251] (-) TimerEvent: {}
+[5.624782] (-) TimerEvent: {}
+[5.725386] (-) TimerEvent: {}
+[5.826023] (-) TimerEvent: {}
+[5.926494] (-) TimerEvent: {}
+[6.027060] (-) TimerEvent: {}
+[6.127599] (-) TimerEvent: {}
+[6.228169] (-) TimerEvent: {}
+[6.328732] (-) TimerEvent: {}
+[6.429316] (-) TimerEvent: {}
+[6.529814] (-) TimerEvent: {}
+[6.550189] (learning_tf2_cpp) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/turtle_tf2_listener_debug.dir/src/turtle_tf2_listener_debug.cpp.o\x1b[0m\n'}
+[6.629996] (-) TimerEvent: {}
+[6.730542] (-) TimerEvent: {}
+[6.831066] (-) TimerEvent: {}
+[6.931599] (-) TimerEvent: {}
+[7.032130] (-) TimerEvent: {}
+[7.132694] (-) TimerEvent: {}
+[7.233255] (-) TimerEvent: {}
+[7.333793] (-) TimerEvent: {}
+[7.434300] (-) TimerEvent: {}
+[7.534799] (-) TimerEvent: {}
+[7.635264] (-) TimerEvent: {}
+[7.735771] (-) TimerEvent: {}
+[7.836305] (-) TimerEvent: {}
+[7.936835] (-) TimerEvent: {}
+[8.037326] (-) TimerEvent: {}
+[8.137770] (-) TimerEvent: {}
+[8.238175] (-) TimerEvent: {}
+[8.241387] (learning_tf2_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/migue/tf2_ws/src/learning_tf2_cpp/src/turtle_tf2_listener.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid FrameListener::on_timer()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[8.241666] (learning_tf2_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/migue/tf2_ws/src/learning_tf2_cpp/src/turtle_tf2_listener.cpp:60:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KtransformStamped\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[8.241839] (learning_tf2_cpp) StderrLine: {'line': b'   60 |           \x1b[01;31m\x1b[KtransformStamped\x1b[m\x1b[K = tf_buffer_->lookupTransform(\n'}
+[8.241993] (learning_tf2_cpp) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.319215] (learning_tf2_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/migue/tf2_ws/src/learning_tf2_cpp/src/turtle_tf2_listener_debug.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid FrameListener::on_timer()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[8.319520] (learning_tf2_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/migue/tf2_ws/src/learning_tf2_cpp/src/turtle_tf2_listener_debug.cpp:60:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KtransformStamped\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[8.319648] (learning_tf2_cpp) StderrLine: {'line': b'   60 |           \x1b[01;31m\x1b[KtransformStamped\x1b[m\x1b[K = tf_buffer_->lookupTransform(\n'}
+[8.319750] (learning_tf2_cpp) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.338350] (-) TimerEvent: {}
+[8.438835] (-) TimerEvent: {}
+[8.539209] (-) TimerEvent: {}
+[8.639692] (-) TimerEvent: {}
+[8.740134] (-) TimerEvent: {}
+[8.840511] (-) TimerEvent: {}
+[8.940899] (-) TimerEvent: {}
+[9.041329] (-) TimerEvent: {}
+[9.141736] (-) TimerEvent: {}
+[9.242155] (-) TimerEvent: {}
+[9.342622] (-) TimerEvent: {}
+[9.443060] (-) TimerEvent: {}
+[9.543485] (-) TimerEvent: {}
+[9.643928] (-) TimerEvent: {}
+[9.701780] (learning_tf2_cpp) StderrLine: {'line': b'make[2]: *** [CMakeFiles/turtle_tf2_listener_debug.dir/build.make:63: CMakeFiles/turtle_tf2_listener_debug.dir/src/turtle_tf2_listener_debug.cpp.o] Error 1\n'}
+[9.762207] (-) TimerEvent: {}
+[9.762453] (learning_tf2_cpp) StderrLine: {'line': b'make[2]: *** [CMakeFiles/turtle_tf2_listener.dir/build.make:63: CMakeFiles/turtle_tf2_listener.dir/src/turtle_tf2_listener.cpp.o] Error 1\n'}
+[9.762685] (learning_tf2_cpp) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:169: CMakeFiles/turtle_tf2_listener_debug.dir/all] Error 2\n'}
+[9.762839] (learning_tf2_cpp) StderrLine: {'line': b'make[1]: *** Waiting for unfinished jobs....\n'}
+[9.762982] (learning_tf2_cpp) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:277: CMakeFiles/turtle_tf2_listener.dir/all] Error 2\n'}
+[9.862407] (-) TimerEvent: {}
+[9.963227] (-) TimerEvent: {}
+[10.064009] (-) TimerEvent: {}
+[10.164602] (-) TimerEvent: {}
+[10.265176] (-) TimerEvent: {}
+[10.365688] (-) TimerEvent: {}
+[10.466195] (-) TimerEvent: {}
+[10.566678] (-) TimerEvent: {}
+[10.667116] (-) TimerEvent: {}
+[10.767555] (-) TimerEvent: {}
+[10.868013] (-) TimerEvent: {}
+[10.968480] (-) TimerEvent: {}
+[11.068926] (-) TimerEvent: {}
+[11.169586] (-) TimerEvent: {}
+[11.270025] (-) TimerEvent: {}
+[11.370469] (-) TimerEvent: {}
+[11.470909] (-) TimerEvent: {}
+[11.571369] (-) TimerEvent: {}
+[11.671820] (-) TimerEvent: {}
+[11.772305] (-) TimerEvent: {}
+[11.872868] (-) TimerEvent: {}
+[11.973361] (-) TimerEvent: {}
+[12.073885] (-) TimerEvent: {}
+[12.174651] (-) TimerEvent: {}
+[12.275205] (-) TimerEvent: {}
+[12.375742] (-) TimerEvent: {}
+[12.406841] (learning_tf2_cpp) StdoutLine: {'line': b'[ 83%] \x1b[32m\x1b[1mLinking CXX executable turtle_tf2_broadcaster\x1b[0m\n'}
+[12.475888] (-) TimerEvent: {}
+[12.576369] (-) TimerEvent: {}
+[12.676965] (-) TimerEvent: {}
+[12.777558] (-) TimerEvent: {}
+[12.878169] (-) TimerEvent: {}
+[12.978714] (-) TimerEvent: {}
+[13.079231] (-) TimerEvent: {}
+[13.179855] (-) TimerEvent: {}
+[13.280435] (-) TimerEvent: {}
+[13.381015] (-) TimerEvent: {}
+[13.481610] (-) TimerEvent: {}
+[13.582204] (-) TimerEvent: {}
+[13.682805] (-) TimerEvent: {}
+[13.783374] (-) TimerEvent: {}
+[13.883928] (-) TimerEvent: {}
+[13.984446] (-) TimerEvent: {}
+[14.084991] (-) TimerEvent: {}
+[14.110348] (learning_tf2_cpp) StdoutLine: {'line': b'[ 83%] Built target turtle_tf2_broadcaster\n'}
+[14.112250] (learning_tf2_cpp) StderrLine: {'line': b'make: *** [Makefile:141: all] Error 2\n'}
+[14.115231] (learning_tf2_cpp) CommandEnded: {'returncode': 2}
+[14.185145] (-) TimerEvent: {}
+[14.285651] (-) TimerEvent: {}
+[14.386198] (-) TimerEvent: {}
+[14.426774] (learning_tf2_cpp) JobEnded: {'identifier': 'learning_tf2_cpp', 'rc': 2}
+[14.437824] (-) EventReactorShutdown: {}

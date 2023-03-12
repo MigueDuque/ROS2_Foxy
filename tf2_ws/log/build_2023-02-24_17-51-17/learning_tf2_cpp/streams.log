@@ -1,0 +1,55 @@
+[0.117s] Invoking command in '/home/migue/tf2_ws/build/learning_tf2_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/migue/tf2_ws/build/learning_tf2_cpp -- -j12 -l12
+[0.731s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.810s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.121s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[1.296s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.334s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.674s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.859s] -- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+[2.019s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[2.023s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.263s] -- Found tf2: 0.13.13 (/opt/ros/foxy/share/tf2/cmake)
+[2.310s] -- Found tf2_ros: 0.13.13 (/opt/ros/foxy/share/tf2_ros/cmake)
+[2.736s] -- Found turtlesim: 1.2.6 (/opt/ros/foxy/share/turtlesim/cmake)
+[2.817s] -- Found ament_lint_auto: 0.9.7 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[3.033s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.034s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.035s] -- Configured cppcheck include dirs: 
+[3.035s] -- Configured cppcheck exclude dirs and/or files: 
+[3.036s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[3.036s] -- Configured cpplint exclude dirs and/or files: 
+[3.036s] -- Added test 'flake8' to check Python code syntax and style conventions
+[3.036s] -- Added test 'lint_cmake' to check CMake code style
+[3.037s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[3.038s] -- Added test 'uncrustify' to check C / C++ code style
+[3.038s] -- Configured uncrustify additional arguments: 
+[3.038s] -- Added test 'xmllint' to check XML markup files
+[3.042s] -- Configuring done
+[3.312s] -- Generating done
+[3.317s] -- Build files have been written to: /home/migue/tf2_ws/build/learning_tf2_cpp
+[3.350s] [35m[1mScanning dependencies of target turtle_tf2_listener_debug[0m
+[3.453s] [35m[1mScanning dependencies of target turtle_tf2_broadcaster[0m
+[3.454s] [35m[1mScanning dependencies of target turtle_tf2_listener[0m
+[3.457s] [ 16%] Built target static_turtle_tf2_broadcaster
+[3.463s] [ 33%] Built target fixed_frame_tf2_broadcaster
+[3.525s] [ 50%] Built target dynamic_frame_tf2_broadcaster
+[3.588s] [ 58%] [32mBuilding CXX object CMakeFiles/turtle_tf2_broadcaster.dir/src/turtle_tf2_broadcaster.cpp.o[0m
+[3.606s] [ 66%] [32mBuilding CXX object CMakeFiles/turtle_tf2_listener.dir/src/turtle_tf2_listener.cpp.o[0m
+[6.550s] [ 75%] [32mBuilding CXX object CMakeFiles/turtle_tf2_listener_debug.dir/src/turtle_tf2_listener_debug.cpp.o[0m
+[8.241s] [01m[K/home/migue/tf2_ws/src/learning_tf2_cpp/src/turtle_tf2_listener.cpp:[m[K In member function ‘[01m[Kvoid FrameListener::on_timer()[m[K’:
+[8.241s] [01m[K/home/migue/tf2_ws/src/learning_tf2_cpp/src/turtle_tf2_listener.cpp:60:11:[m[K [01;31m[Kerror: [m[K‘[01m[KtransformStamped[m[K’ was not declared in this scope
+[8.242s]    60 |           [01;31m[KtransformStamped[m[K = tf_buffer_->lookupTransform(
+[8.242s]       |           [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[8.319s] [01m[K/home/migue/tf2_ws/src/learning_tf2_cpp/src/turtle_tf2_listener_debug.cpp:[m[K In member function ‘[01m[Kvoid FrameListener::on_timer()[m[K’:
+[8.319s] [01m[K/home/migue/tf2_ws/src/learning_tf2_cpp/src/turtle_tf2_listener_debug.cpp:60:11:[m[K [01;31m[Kerror: [m[K‘[01m[KtransformStamped[m[K’ was not declared in this scope
+[8.319s]    60 |           [01;31m[KtransformStamped[m[K = tf_buffer_->lookupTransform(
+[8.319s]       |           [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[9.728s] make[2]: *** [CMakeFiles/turtle_tf2_listener_debug.dir/build.make:63: CMakeFiles/turtle_tf2_listener_debug.dir/src/turtle_tf2_listener_debug.cpp.o] Error 1
+[9.762s] make[2]: *** [CMakeFiles/turtle_tf2_listener.dir/build.make:63: CMakeFiles/turtle_tf2_listener.dir/src/turtle_tf2_listener.cpp.o] Error 1
+[9.762s] make[1]: *** [CMakeFiles/Makefile2:169: CMakeFiles/turtle_tf2_listener_debug.dir/all] Error 2
+[9.763s] make[1]: *** Waiting for unfinished jobs....
+[9.763s] make[1]: *** [CMakeFiles/Makefile2:277: CMakeFiles/turtle_tf2_listener.dir/all] Error 2
+[12.451s] [ 83%] [32m[1mLinking CXX executable turtle_tf2_broadcaster[0m
+[14.110s] [ 83%] Built target turtle_tf2_broadcaster
+[14.112s] make: *** [Makefile:141: all] Error 2
+[14.173s] Invoked command in '/home/migue/tf2_ws/build/learning_tf2_cpp' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/migue/tf2_ws/build/learning_tf2_cpp -- -j12 -l12

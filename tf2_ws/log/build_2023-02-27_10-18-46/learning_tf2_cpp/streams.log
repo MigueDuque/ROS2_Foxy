@@ -1,0 +1,10 @@
+[0.023s] Invoking command in '/home/migue/tf2_ws/build/learning_tf2_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/migue/tf2_ws/build/learning_tf2_cpp -- -j12 -l12
+[0.051s] CMake Error at CMakeLists.txt:72:
+[0.051s]   Parse error.  Expected a command name, got quoted argument with text "".
+[0.051s] 
+[0.051s] 
+[0.052s] -- Configuring incomplete, errors occurred!
+[0.052s] See also "/home/migue/tf2_ws/build/learning_tf2_cpp/CMakeFiles/CMakeOutput.log".
+[0.052s] See also "/home/migue/tf2_ws/build/learning_tf2_cpp/CMakeFiles/CMakeError.log".
+[0.053s] make: *** [Makefile:486: cmake_check_build_system] Error 1
+[0.057s] Invoked command in '/home/migue/tf2_ws/build/learning_tf2_cpp' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/migue/tf2_ws/build/learning_tf2_cpp -- -j12 -l12

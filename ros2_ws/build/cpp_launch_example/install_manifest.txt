@@ -1,0 +1,16 @@
+/home/migue/ros2_ws/install/cpp_launch_example/share/cpp_launch_example//launch/my_script_launch.py
+/home/migue/ros2_ws/install/cpp_launch_example/share/ament_index/resource_index/package_run_dependencies/cpp_launch_example
+/home/migue/ros2_ws/install/cpp_launch_example/share/ament_index/resource_index/parent_prefix_path/cpp_launch_example
+/home/migue/ros2_ws/install/cpp_launch_example/share/cpp_launch_example/environment/ament_prefix_path.sh
+/home/migue/ros2_ws/install/cpp_launch_example/share/cpp_launch_example/environment/ament_prefix_path.dsv
+/home/migue/ros2_ws/install/cpp_launch_example/share/cpp_launch_example/environment/path.sh
+/home/migue/ros2_ws/install/cpp_launch_example/share/cpp_launch_example/environment/path.dsv
+/home/migue/ros2_ws/install/cpp_launch_example/share/cpp_launch_example/local_setup.bash
+/home/migue/ros2_ws/install/cpp_launch_example/share/cpp_launch_example/local_setup.sh
+/home/migue/ros2_ws/install/cpp_launch_example/share/cpp_launch_example/local_setup.zsh
+/home/migue/ros2_ws/install/cpp_launch_example/share/cpp_launch_example/local_setup.dsv
+/home/migue/ros2_ws/install/cpp_launch_example/share/cpp_launch_example/package.dsv
+/home/migue/ros2_ws/install/cpp_launch_example/share/ament_index/resource_index/packages/cpp_launch_example
+/home/migue/ros2_ws/install/cpp_launch_example/share/cpp_launch_example/cmake/cpp_launch_exampleConfig.cmake
+/home/migue/ros2_ws/install/cpp_launch_example/share/cpp_launch_example/cmake/cpp_launch_exampleConfig-version.cmake
+/home/migue/ros2_ws/install/cpp_launch_example/share/cpp_launch_example/package.xml

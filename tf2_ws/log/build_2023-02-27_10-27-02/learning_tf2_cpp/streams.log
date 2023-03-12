@@ -1,0 +1,7 @@
+[0.036s] Invoking command in '/home/migue/tf2_ws/build/learning_tf2_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/migue/tf2_ws/install/learning_tf2_py:/opt/ros/foxy /usr/bin/cmake --build /home/migue/tf2_ws/build/learning_tf2_cpp -- -j12 -l12
+[0.107s] [ 33%] Built target static_turtle_tf2_broadcaster
+[0.107s] [ 33%] Built target turtle_tf2_broadcaster
+[0.110s] [ 50%] Built target dynamic_frame_tf2_broadcaster
+[0.114s] [ 66%] Built target fixed_frame_tf2_broadcaster
+[0.117s] [ 83%] Built target turtle_tf2_listener
+[0.118s] [100%] Built target turtle_tf2_message_filter

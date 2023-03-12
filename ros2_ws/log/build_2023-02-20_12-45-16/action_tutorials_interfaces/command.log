@@ -1,0 +1,4 @@
+Invoking command in '/home/migue/ros2_ws/build/action_tutorials_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/migue/ros2_ws/build/action_tutorials_interfaces -- -j12 -l12
+Invoked command in '/home/migue/ros2_ws/build/action_tutorials_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/migue/ros2_ws/build/action_tutorials_interfaces -- -j12 -l12
+Invoking command in '/home/migue/ros2_ws/build/action_tutorials_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/migue/ros2_ws/build/action_tutorials_interfaces
+Invoked command in '/home/migue/ros2_ws/build/action_tutorials_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/migue/ros2_ws/build/action_tutorials_interfaces

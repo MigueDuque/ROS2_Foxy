@@ -1,0 +1,19 @@
+[0.024s] Invoking command in '/home/migue/tf2_ws/build/learning_tf2_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/migue/tf2_ws/build/learning_tf2_cpp -- -j12 -l12
+[0.076s] [35m[1mScanning dependencies of target turtle_tf2_listener[0m
+[0.096s] [ 16%] Built target static_turtle_tf2_broadcaster
+[0.096s] [ 25%] [32mBuilding CXX object CMakeFiles/turtle_tf2_listener_debug.dir/src/turtle_tf2_listener_debug.cpp.o[0m
+[0.097s] [ 58%] Built target dynamic_frame_tf2_broadcaster
+[0.098s] [ 58%] Built target turtle_tf2_broadcaster
+[0.100s] [ 75%] Built target fixed_frame_tf2_broadcaster
+[0.107s] [ 83%] [32mBuilding CXX object CMakeFiles/turtle_tf2_listener.dir/src/turtle_tf2_listener.cpp.o[0m
+[1.429s] [01m[K/home/migue/tf2_ws/src/learning_tf2_cpp/src/turtle_tf2_listener_debug.cpp:[m[K In member function ‘[01m[Kvoid FrameListener::on_timer()[m[K’:
+[1.430s] [01m[K/home/migue/tf2_ws/src/learning_tf2_cpp/src/turtle_tf2_listener_debug.cpp:60:11:[m[K [01;31m[Kerror: [m[K‘[01m[KtransformStamped[m[K’ was not declared in this scope
+[1.430s]    60 |           [01;31m[KtransformStamped[m[K = tf_buffer_->lookupTransform(
+[1.430s]       |           [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[2.441s] make[2]: *** [CMakeFiles/turtle_tf2_listener_debug.dir/build.make:63: CMakeFiles/turtle_tf2_listener_debug.dir/src/turtle_tf2_listener_debug.cpp.o] Error 1
+[2.442s] make[1]: *** [CMakeFiles/Makefile2:169: CMakeFiles/turtle_tf2_listener_debug.dir/all] Error 2
+[2.442s] make[1]: *** Waiting for unfinished jobs....
+[3.578s] [ 91%] [32m[1mLinking CXX executable turtle_tf2_listener[0m
+[3.797s] [ 91%] Built target turtle_tf2_listener
+[3.799s] make: *** [Makefile:141: all] Error 2
+[3.801s] Invoked command in '/home/migue/tf2_ws/build/learning_tf2_cpp' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/migue/tf2_ws/build/learning_tf2_cpp -- -j12 -l12

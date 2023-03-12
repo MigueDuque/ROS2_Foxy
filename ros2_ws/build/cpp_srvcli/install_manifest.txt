@@ -1,0 +1,17 @@
+/home/migue/ros2_ws/install/cpp_srvcli/lib/cpp_srvcli/server
+/home/migue/ros2_ws/install/cpp_srvcli/lib/cpp_srvcli/client
+/home/migue/ros2_ws/install/cpp_srvcli/share/ament_index/resource_index/package_run_dependencies/cpp_srvcli
+/home/migue/ros2_ws/install/cpp_srvcli/share/ament_index/resource_index/parent_prefix_path/cpp_srvcli
+/home/migue/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/environment/ament_prefix_path.sh
+/home/migue/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/environment/ament_prefix_path.dsv
+/home/migue/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/environment/path.sh
+/home/migue/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/environment/path.dsv
+/home/migue/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.bash
+/home/migue/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.sh
+/home/migue/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.zsh
+/home/migue/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.dsv
+/home/migue/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/package.dsv
+/home/migue/ros2_ws/install/cpp_srvcli/share/ament_index/resource_index/packages/cpp_srvcli
+/home/migue/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/cmake/cpp_srvcliConfig.cmake
+/home/migue/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/cmake/cpp_srvcliConfig-version.cmake
+/home/migue/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/package.xml

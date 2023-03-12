@@ -1,0 +1,25 @@
+[35m[1mScanning dependencies of target client[0m
+[ 50%] Built target server
+[ 75%] [32mBuilding CXX object CMakeFiles/client.dir/src/add_two_ints_client.cpp.o[0m
+[100%] [32m[1mLinking CXX executable client[0m
+[100%] Built target client
+-- Install configuration: ""
+-- Installing: /home/migue/ros2_ws/install/cpp_srvcli/lib/cpp_srvcli/server
+-- Set runtime path of "/home/migue/ros2_ws/install/cpp_srvcli/lib/cpp_srvcli/server" to ""
+-- Installing: /home/migue/ros2_ws/install/cpp_srvcli/lib/cpp_srvcli/client
+-- Set runtime path of "/home/migue/ros2_ws/install/cpp_srvcli/lib/cpp_srvcli/client" to ""
+-- Installing: /home/migue/ros2_ws/install/cpp_srvcli/share/ament_index/resource_index/package_run_dependencies/cpp_srvcli
+-- Up-to-date: /home/migue/ros2_ws/install/cpp_srvcli/share/ament_index/resource_index/parent_prefix_path/cpp_srvcli
+-- Up-to-date: /home/migue/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/environment/ament_prefix_path.sh
+-- Installing: /home/migue/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/migue/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/environment/path.sh
+-- Installing: /home/migue/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/environment/path.dsv
+-- Up-to-date: /home/migue/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.bash
+-- Up-to-date: /home/migue/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.sh
+-- Up-to-date: /home/migue/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.zsh
+-- Installing: /home/migue/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.dsv
+-- Installing: /home/migue/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/package.dsv
+-- Up-to-date: /home/migue/ros2_ws/install/cpp_srvcli/share/ament_index/resource_index/packages/cpp_srvcli
+-- Up-to-date: /home/migue/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/cmake/cpp_srvcliConfig.cmake
+-- Up-to-date: /home/migue/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/cmake/cpp_srvcliConfig-version.cmake
+-- Installing: /home/migue/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/package.xml

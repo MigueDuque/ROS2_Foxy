@@ -1,0 +1,21 @@
+[35m[1mScanning dependencies of target turtle_tf2_listener[0m
+[ 16%] Built target turtle_tf2_broadcaster
+[ 33%] Built target dynamic_frame_tf2_broadcaster
+[ 50%] Built target fixed_frame_tf2_broadcaster
+[ 66%] Built target static_turtle_tf2_broadcaster
+[ 75%] [32mBuilding CXX object CMakeFiles/turtle_tf2_listener_debug.dir/src/turtle_tf2_listener_debug.cpp.o[0m
+[ 83%] [32mBuilding CXX object CMakeFiles/turtle_tf2_listener.dir/src/turtle_tf2_listener.cpp.o[0m
+[01m[K/home/migue/tf2_ws/src/learning_tf2_cpp/src/turtle_tf2_listener_debug.cpp:[m[K In member function ‘[01m[Kvoid FrameListener::on_timer()[m[K’:
+[01m[K/home/migue/tf2_ws/src/learning_tf2_cpp/src/turtle_tf2_listener_debug.cpp:60:11:[m[K [01;31m[Kerror: [m[K‘[01m[KtransformStamped[m[K’ was not declared in this scope
+   60 |           [01;31m[KtransformStamped[m[K = tf_buffer_->lookupTransform(
+      |           [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/migue/tf2_ws/src/learning_tf2_cpp/src/turtle_tf2_listener.cpp:[m[K In member function ‘[01m[Kvoid FrameListener::on_timer()[m[K’:
+[01m[K/home/migue/tf2_ws/src/learning_tf2_cpp/src/turtle_tf2_listener.cpp:60:11:[m[K [01;31m[Kerror: [m[K‘[01m[KtransformStamped[m[K’ was not declared in this scope
+   60 |           [01;31m[KtransformStamped[m[K = tf_buffer_->lookupTransform(
+      |           [01;31m[K^~~~~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/turtle_tf2_listener_debug.dir/build.make:63: CMakeFiles/turtle_tf2_listener_debug.dir/src/turtle_tf2_listener_debug.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:169: CMakeFiles/turtle_tf2_listener_debug.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+make[2]: *** [CMakeFiles/turtle_tf2_listener.dir/build.make:63: CMakeFiles/turtle_tf2_listener.dir/src/turtle_tf2_listener.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:277: CMakeFiles/turtle_tf2_listener.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

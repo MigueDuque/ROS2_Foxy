@@ -1,0 +1,322 @@
+[0.000000] (-) TimerEvent: {}
+[0.000814] (tutorial_interfaces) JobQueued: {'identifier': 'tutorial_interfaces', 'dependencies': OrderedDict()}
+[0.000885] (cpp_pubsub) JobQueued: {'identifier': 'cpp_pubsub', 'dependencies': OrderedDict([('tutorial_interfaces', '/home/migue/ros2_ws/install/tutorial_interfaces')])}
+[0.000934] (tutorial_interfaces) JobStarted: {'identifier': 'tutorial_interfaces'}
+[0.052436] (tutorial_interfaces) JobProgress: {'identifier': 'tutorial_interfaces', 'progress': 'cmake'}
+[0.054108] (tutorial_interfaces) JobProgress: {'identifier': 'tutorial_interfaces', 'progress': 'build'}
+[0.054207] (tutorial_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/migue/ros2_ws/build/tutorial_interfaces', '--', '-j12', '-l12'], 'cwd': '/home/migue/ros2_ws/build/tutorial_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'migue'), ('LC_TIME', 'es_CO.UTF-8'), ('SSH_AGENT_PID', '1883'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/migue/ros2_ws/install/tutorial_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/migue'), ('OLDPWD', '/home/migue'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'es_CO.UTF-8'), ('MANAGERPID', '1692'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/foxy/'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/migue/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'migue'), ('JOURNAL_STREAM', '8:51898'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'migue'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/migue/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/migue:@/tmp/.ICE-unix/1949,unix/migue:/tmp/.ICE-unix/1949'), ('INVOCATION_ID', 'a6f9c37777b1449a831a02e4df1998ab'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'es_CO.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/cb2addc4_0d6b_46c7_9de4_287d16ce2658'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'es_CO.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.121'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/migue/ros2_ws/install/tutorial_interfaces:/home/migue/ros2_ws/install/cpp_pubsub:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_CO.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'es_CO.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'es_CO.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/migue/ros2_ws/build/tutorial_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/migue/ros2_ws/install/tutorial_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'es_CO.UTF-8'), ('LC_PAPER', 'es_CO.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/migue/ros2_ws/install/tutorial_interfaces:/home/migue/ros2_ws/install/cpp_pubsub:/opt/ros/foxy')]), 'shell': False}
+[0.099603] (-) TimerEvent: {}
+[0.167752] (tutorial_interfaces) StdoutLine: {'line': b'[  2%] Built target tutorial_interfaces__cpp\n'}
+[0.168070] (tutorial_interfaces) StdoutLine: {'line': b'[ 12%] Built target tutorial_interfaces__rosidl_generator_c\n'}
+[0.189117] (tutorial_interfaces) StdoutLine: {'line': b'[ 55%] Built target tutorial_interfaces__rosidl_typesupport_cpp\n'}
+[0.189343] (tutorial_interfaces) StdoutLine: {'line': b'[ 55%] Built target tutorial_interfaces__rosidl_typesupport_introspection_c\n'}
+[0.189424] (tutorial_interfaces) StdoutLine: {'line': b'[ 55%] Built target tutorial_interfaces__rosidl_typesupport_c\n'}
+[0.189496] (tutorial_interfaces) StdoutLine: {'line': b'[ 55%] Built target tutorial_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[0.195351] (tutorial_interfaces) StdoutLine: {'line': b'[ 65%] Built target tutorial_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[0.199709] (-) TimerEvent: {}
+[0.229800] (tutorial_interfaces) StdoutLine: {'line': b'[ 76%] Built target tutorial_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[0.248587] (tutorial_interfaces) StdoutLine: {'line': b'[ 76%] Built target tutorial_interfaces\n'}
+[0.275350] (tutorial_interfaces) StdoutLine: {'line': b'[ 78%] Built target tutorial_interfaces__py\n'}
+[0.299897] (-) TimerEvent: {}
+[0.309043] (tutorial_interfaces) StdoutLine: {'line': b'[ 87%] Built target tutorial_interfaces__python\n'}
+[0.339061] (tutorial_interfaces) StdoutLine: {'line': b'[ 93%] Built target tutorial_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.339330] (tutorial_interfaces) StdoutLine: {'line': b'[ 95%] Built target tutorial_interfaces__rosidl_typesupport_c__pyext\n'}
+[0.339594] (tutorial_interfaces) StdoutLine: {'line': b'[100%] Built target tutorial_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[0.349384] (tutorial_interfaces) CommandEnded: {'returncode': 0}
+[0.400181] (-) TimerEvent: {}
+[0.411497] (tutorial_interfaces) JobProgress: {'identifier': 'tutorial_interfaces', 'progress': 'install'}
+[0.422860] (tutorial_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/migue/ros2_ws/build/tutorial_interfaces'], 'cwd': '/home/migue/ros2_ws/build/tutorial_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'migue'), ('LC_TIME', 'es_CO.UTF-8'), ('SSH_AGENT_PID', '1883'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/migue/ros2_ws/install/tutorial_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/migue'), ('OLDPWD', '/home/migue'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'es_CO.UTF-8'), ('MANAGERPID', '1692'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/foxy/'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/migue/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'migue'), ('JOURNAL_STREAM', '8:51898'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'migue'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/migue/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/migue:@/tmp/.ICE-unix/1949,unix/migue:/tmp/.ICE-unix/1949'), ('INVOCATION_ID', 'a6f9c37777b1449a831a02e4df1998ab'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'es_CO.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/cb2addc4_0d6b_46c7_9de4_287d16ce2658'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'es_CO.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.121'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/migue/ros2_ws/install/tutorial_interfaces:/home/migue/ros2_ws/install/cpp_pubsub:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_CO.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'es_CO.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'es_CO.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/migue/ros2_ws/build/tutorial_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/migue/ros2_ws/install/tutorial_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'es_CO.UTF-8'), ('LC_PAPER', 'es_CO.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/migue/ros2_ws/install/tutorial_interfaces:/home/migue/ros2_ws/install/cpp_pubsub:/opt/ros/foxy')]), 'shell': False}
+[0.435268] (tutorial_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.435849] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/migue/ros2_ws/install/tutorial_interfaces/share/ament_index/resource_index/rosidl_interfaces/tutorial_interfaces\n'}
+[0.435943] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/migue/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces\n'}
+[0.436014] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/migue/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv\n'}
+[0.436093] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/migue/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/add_three_ints.h\n'}
+[0.436173] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/migue/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/detail\n'}
+[0.436243] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/migue/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/detail/add_three_ints__functions.h\n'}
+[0.436313] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/migue/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/detail/add_three_ints__struct.h\n'}
+[0.436383] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/migue/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/detail/add_three_ints__type_support.h\n'}
+[0.436452] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/migue/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/detail/add_three_ints__functions.c\n'}
+[0.436521] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/migue/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg\n'}
+[0.436590] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/migue/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/sphere.h\n'}
+[0.436659] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/migue/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/num.h\n'}
+[0.436727] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/migue/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail\n'}
+[0.436798] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/migue/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail/num__type_support.h\n'}
+[0.436868] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/migue/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail/sphere__functions.c\n'}
+[0.436935] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/migue/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail/num__functions.h\n'}
+[0.437004] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/migue/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail/num__functions.c\n'}
+[0.437073] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/migue/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail/num__struct.h\n'}
+[0.437142] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/migue/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail/sphere__type_support.h\n'}
+[0.437211] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/migue/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail/sphere__functions.h\n'}
+[0.437434] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/migue/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail/sphere__struct.h\n'}
+[0.437596] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/migue/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[0.437720] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/migue/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/library_path.sh\n'}
+[0.437837] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/migue/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/library_path.dsv\n'}
+[0.437953] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/migue/ros2_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_generator_c.so\n'}
+[0.438080] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/migue/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces\n'}
+[0.438196] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/migue/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv\n'}
+[0.438311] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/migue/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/detail\n'}
+[0.438576] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/migue/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/detail/add_three_ints__rosidl_typesupport_fastrtps_c.h\n'}
+[0.438744] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/migue/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg\n'}
+[0.438867] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/migue/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail\n'}
+[0.438983] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/migue/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail/num__rosidl_typesupport_fastrtps_c.h\n'}
+[0.439098] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/migue/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail/sphere__rosidl_typesupport_fastrtps_c.h\n'}
+[0.439212] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/migue/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[0.439327] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/migue/ros2_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[0.439442] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/migue/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces\n'}
+[0.439558] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/migue/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv\n'}
+[0.439674] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/migue/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/detail\n'}
+[0.439786] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/migue/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/detail/dds_fastrtps\n'}
+[0.439899] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/migue/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/detail/add_three_ints__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.440013] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/migue/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg\n'}
+[0.440158] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/migue/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[0.440276] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/migue/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail\n'}
+[0.440391] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/migue/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail/num__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.440505] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/migue/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail/sphere__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.440619] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/migue/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail/dds_fastrtps\n'}
+[0.440733] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/migue/ros2_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[0.440858] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/migue/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces\n'}
+[0.440968] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/migue/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv\n'}
+[0.441079] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/migue/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/detail\n'}
+[0.441189] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/migue/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/detail/add_three_ints__type_support.c\n'}
+[0.441299] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/migue/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/detail/add_three_ints__rosidl_typesupport_introspection_c.h\n'}
+[0.441417] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/migue/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg\n'}
+[0.441527] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/migue/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[0.441636] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/migue/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail\n'}
+[0.441746] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/migue/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail/num__rosidl_typesupport_introspection_c.h\n'}
+[0.441858] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/migue/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail/num__type_support.c\n'}
+[0.441968] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/migue/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail/sphere__rosidl_typesupport_introspection_c.h\n'}
+[0.442083] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/migue/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail/sphere__type_support.c\n'}
+[0.442193] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/migue/ros2_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[0.442302] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/migue/ros2_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_c.so\n'}
+[0.442413] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/migue/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces\n'}
+[0.442535] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/migue/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv\n'}
+[0.442645] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/migue/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/add_three_ints.hpp\n'}
+[0.442755] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/migue/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/detail\n'}
+[0.442866] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/migue/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/detail/add_three_ints__builder.hpp\n'}
+[0.442977] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/migue/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/detail/add_three_ints__struct.hpp\n'}
+[0.443087] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/migue/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/detail/add_three_ints__traits.hpp\n'}
+[0.443195] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/migue/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg\n'}
+[0.443305] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/migue/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/sphere.hpp\n'}
+[0.443414] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/migue/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail\n'}
+[0.443533] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/migue/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail/sphere__builder.hpp\n'}
+[0.443643] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/migue/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail/num__traits.hpp\n'}
+[0.443752] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/migue/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail/sphere__traits.hpp\n'}
+[0.443865] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/migue/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail/num__struct.hpp\n'}
+[0.443974] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/migue/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail/sphere__struct.hpp\n'}
+[0.444099] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/migue/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail/num__builder.hpp\n'}
+[0.444218] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/migue/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/num.hpp\n'}
+[0.444329] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/migue/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces\n'}
+[0.444439] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/migue/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv\n'}
+[0.444548] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/migue/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/detail\n'}
+[0.444657] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/migue/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/detail/add_three_ints__type_support.cpp\n'}
+[0.444768] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/migue/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/detail/add_three_ints__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.444880] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/migue/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg\n'}
+[0.444989] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/migue/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail\n'}
+[0.445107] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/migue/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail/num__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.445218] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/migue/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail/sphere__type_support.cpp\n'}
+[0.445327] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/migue/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail/sphere__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.445437] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/migue/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail/num__type_support.cpp\n'}
+[0.445546] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/migue/ros2_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[0.445660] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/migue/ros2_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_cpp.so\n'}
+[0.445770] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/migue/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/pythonpath.sh\n'}
+[0.445880] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/migue/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/pythonpath.dsv\n'}
+[0.445997] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/migue/ros2_ws/install/tutorial_interfaces/lib/python3.8/site-packages/tutorial_interfaces/__init__.py\n'}
+[0.469211] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/migue/ros2_ws/install/tutorial_interfaces/lib/python3.8/site-packages/tutorial_interfaces/msg\n'}
+[0.469460] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/migue/ros2_ws/install/tutorial_interfaces/lib/python3.8/site-packages/tutorial_interfaces/msg/__init__.py\n'}
+[0.469589] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/migue/ros2_ws/install/tutorial_interfaces/lib/python3.8/site-packages/tutorial_interfaces/msg/_sphere_s.c\n'}
+[0.469807] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/migue/ros2_ws/install/tutorial_interfaces/lib/python3.8/site-packages/tutorial_interfaces/msg/_num_s.c\n'}
+[0.469920] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/migue/ros2_ws/install/tutorial_interfaces/lib/python3.8/site-packages/tutorial_interfaces/msg/_num.py\n'}
+[0.470030] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/migue/ros2_ws/install/tutorial_interfaces/lib/python3.8/site-packages/tutorial_interfaces/msg/_sphere.py\n'}
+[0.470139] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/migue/ros2_ws/install/tutorial_interfaces/lib/python3.8/site-packages/tutorial_interfaces/srv\n'}
+[0.470254] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/migue/ros2_ws/install/tutorial_interfaces/lib/python3.8/site-packages/tutorial_interfaces/srv/_add_three_ints.py\n'}
+[0.470368] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/migue/ros2_ws/install/tutorial_interfaces/lib/python3.8/site-packages/tutorial_interfaces/srv/_add_three_ints_s.c\n'}
+[0.470481] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/migue/ros2_ws/install/tutorial_interfaces/lib/python3.8/site-packages/tutorial_interfaces/srv/__init__.py\n'}
+[0.470644] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/migue/ros2_ws/install/tutorial_interfaces/lib/python3.8/site-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\n'}
+[0.471808] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/migue/ros2_ws/install/tutorial_interfaces/lib/python3.8/site-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\n'}
+[0.473456] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/migue/ros2_ws/install/tutorial_interfaces/lib/python3.8/site-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\n'}
+[0.474518] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/migue/ros2_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__python.so\n'}
+[0.474929] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/migue/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/msg/Num.idl\n'}
+[0.475201] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/migue/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/msg/Sphere.idl\n'}
+[0.475402] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/migue/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/srv/AddThreeInts.idl\n'}
+[0.475554] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/migue/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/msg/Num.msg\n'}
+[0.475801] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/migue/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/msg/Sphere.msg\n'}
+[0.475972] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/migue/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/srv/AddThreeInts.srv\n'}
+[0.476207] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/migue/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/srv/AddThreeInts_Request.msg\n'}
+[0.476467] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/migue/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/srv/AddThreeInts_Response.msg\n'}
+[0.476634] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/migue/ros2_ws/install/tutorial_interfaces/share/ament_index/resource_index/package_run_dependencies/tutorial_interfaces\n'}
+[0.476777] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/migue/ros2_ws/install/tutorial_interfaces/share/ament_index/resource_index/parent_prefix_path/tutorial_interfaces\n'}
+[0.477083] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/migue/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/ament_prefix_path.sh\n'}
+[0.477226] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/migue/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/ament_prefix_path.dsv\n'}
+[0.477338] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/migue/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/path.sh\n'}
+[0.477448] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/migue/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/path.dsv\n'}
+[0.477563] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/migue/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.bash\n'}
+[0.477720] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/migue/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.sh\n'}
+[0.477854] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/migue/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.zsh\n'}
+[0.477939] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/migue/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.dsv\n'}
+[0.478028] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/migue/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/package.dsv\n'}
+[0.500435] (-) TimerEvent: {}
+[0.503018] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/migue/ros2_ws/install/tutorial_interfaces/share/ament_index/resource_index/packages/tutorial_interfaces\n'}
+[0.503386] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/migue/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_generator_cExport.cmake\n'}
+[0.503683] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/migue/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[0.504004] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/migue/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[0.504175] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/migue/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[0.504417] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/migue/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[0.504559] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/migue/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[0.504689] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/migue/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_generator_cppExport.cmake\n'}
+[0.504920] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/migue/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[0.505121] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/migue/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[0.505254] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/migue/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[0.505380] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/migue/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[0.505511] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/migue/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[0.505638] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/migue/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[0.505765] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/migue/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[0.505890] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/migue/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[0.506094] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/migue/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[0.506239] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/migue/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[0.506400] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/migue/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[0.506560] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/migue/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfacesConfig.cmake\n'}
+[0.506715] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/migue/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfacesConfig-version.cmake\n'}
+[0.506870] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/migue/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/package.xml\n'}
+[0.507866] (tutorial_interfaces) CommandEnded: {'returncode': 0}
+[0.600546] (-) TimerEvent: {}
+[0.628393] (tutorial_interfaces) JobEnded: {'identifier': 'tutorial_interfaces', 'rc': 0}
+[0.628856] (cpp_pubsub) JobStarted: {'identifier': 'cpp_pubsub'}
+[0.700771] (-) TimerEvent: {}
+[0.708059] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'cmake'}
+[0.709096] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'build'}
+[0.710611] (cpp_pubsub) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/migue/ros2_ws/build/cpp_pubsub', '--', '-j12', '-l12'], 'cwd': '/home/migue/ros2_ws/build/cpp_pubsub', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'migue'), ('LC_TIME', 'es_CO.UTF-8'), ('SSH_AGENT_PID', '1883'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/migue/ros2_ws/install/tutorial_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/migue'), ('OLDPWD', '/home/migue'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'es_CO.UTF-8'), ('MANAGERPID', '1692'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/foxy/'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/migue/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'migue'), ('JOURNAL_STREAM', '8:51898'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'migue'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/migue/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/migue:@/tmp/.ICE-unix/1949,unix/migue:/tmp/.ICE-unix/1949'), ('INVOCATION_ID', 'a6f9c37777b1449a831a02e4df1998ab'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'es_CO.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/cb2addc4_0d6b_46c7_9de4_287d16ce2658'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'es_CO.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.121'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/migue/ros2_ws/install/tutorial_interfaces:/home/migue/ros2_ws/install/cpp_pubsub:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_CO.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'es_CO.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'es_CO.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/migue/ros2_ws/build/cpp_pubsub'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/migue/ros2_ws/install/tutorial_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'es_CO.UTF-8'), ('LC_PAPER', 'es_CO.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/migue/ros2_ws/install/tutorial_interfaces:/home/migue/ros2_ws/install/cpp_pubsub:/opt/ros/foxy')]), 'shell': False}
+[0.740616] (cpp_pubsub) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.763551] (cpp_pubsub) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.800906] (-) TimerEvent: {}
+[0.901334] (-) TimerEvent: {}
+[0.912628] (cpp_pubsub) StdoutLine: {'line': b'-- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[0.939501] (cpp_pubsub) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.942277] (cpp_pubsub) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[1.001487] (-) TimerEvent: {}
+[1.063226] (cpp_pubsub) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.101606] (-) TimerEvent: {}
+[1.104578] (cpp_pubsub) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[1.105614] (cpp_pubsub) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.201719] (-) TimerEvent: {}
+[1.226925] (cpp_pubsub) StdoutLine: {'line': b'-- Found tutorial_interfaces: 0.0.0 (/home/migue/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake)\n'}
+[1.301852] (-) TimerEvent: {}
+[1.318894] (cpp_pubsub) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.7 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[1.373571] (cpp_pubsub) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[1.374097] (cpp_pubsub) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.374406] (cpp_pubsub) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[1.374579] (cpp_pubsub) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.374817] (cpp_pubsub) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[1.374979] (cpp_pubsub) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[1.375212] (cpp_pubsub) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.375611] (cpp_pubsub) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.375775] (cpp_pubsub) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.375991] (cpp_pubsub) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.377768] (cpp_pubsub) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.387517] (cpp_pubsub) StdoutLine: {'line': b'-- Generating done\n'}
+[1.389150] (cpp_pubsub) StdoutLine: {'line': b'-- Build files have been written to: /home/migue/ros2_ws/build/cpp_pubsub\n'}
+[1.402002] (-) TimerEvent: {}
+[1.416127] (cpp_pubsub) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target talker\x1b[0m\n'}
+[1.423841] (cpp_pubsub) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target listener\x1b[0m\n'}
+[1.442916] (cpp_pubsub) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o\x1b[0m\n'}
+[1.446374] (cpp_pubsub) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o\x1b[0m\n'}
+[1.502186] (-) TimerEvent: {}
+[1.602900] (-) TimerEvent: {}
+[1.703270] (-) TimerEvent: {}
+[1.803709] (-) TimerEvent: {}
+[1.904329] (-) TimerEvent: {}
+[2.004717] (-) TimerEvent: {}
+[2.105106] (-) TimerEvent: {}
+[2.205490] (-) TimerEvent: {}
+[2.306083] (-) TimerEvent: {}
+[2.406473] (-) TimerEvent: {}
+[2.506840] (-) TimerEvent: {}
+[2.552121] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/migue/ros2_ws/src/cpp_pubsub/src/publisher_member_function.cpp:51:21:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ktutorial_interfaces\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Krcl_interfaces\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.552462] (cpp_pubsub) StderrLine: {'line': b'   51 |   rclcpp::Publisher<\x1b[01;31m\x1b[Ktutorial_interfaces\x1b[m\x1b[K::msg::Num>::SharedPtr publisher_; // CHANGE para emplear el msg definido en el paquete creado tutorial_interfaces\n'}
+[2.552640] (cpp_pubsub) StderrLine: {'line': b'      |                     \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.552790] (cpp_pubsub) StderrLine: {'line': b'      |                     \x1b[32m\x1b[Krcl_interfaces\x1b[m\x1b[K\n'}
+[2.552958] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/migue/ros2_ws/src/cpp_pubsub/src/publisher_member_function.cpp:51:50:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[2.553112] (cpp_pubsub) StderrLine: {'line': b'   51 |   rclcpp::Publisher<tutorial_interfaces::msg::Num\x1b[01;31m\x1b[K>\x1b[m\x1b[K::SharedPtr publisher_; // CHANGE para emplear el msg definido en el paquete creado tutorial_interfaces\n'}
+[2.553269] (cpp_pubsub) StderrLine: {'line': b'      |                                                  \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.553417] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/migue/ros2_ws/src/cpp_pubsub/src/publisher_member_function.cpp:51:53:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 at end of member declaration\n'}
+[2.553577] (cpp_pubsub) StderrLine: {'line': b'   51 |   rclcpp::Publisher<tutorial_interfaces::msg::Num>::\x1b[01;31m\x1b[KSharedPtr\x1b[m\x1b[K publisher_; // CHANGE para emplear el msg definido en el paquete creado tutorial_interfaces\n'}
+[2.553763] (cpp_pubsub) StderrLine: {'line': b'      |                                                     \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[2.553969] (cpp_pubsub) StderrLine: {'line': b'      |                                                              \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[2.554265] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/migue/ros2_ws/src/cpp_pubsub/src/publisher_member_function.cpp:51:63:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kpublisher_\x1b[m\x1b[K\xe2\x80\x99 does not name a type; did you mean \xe2\x80\x98\x1b[01m\x1b[Krcl_publisher_t\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.554483] (cpp_pubsub) StderrLine: {'line': b'   51 |   rclcpp::Publisher<tutorial_interfaces::msg::Num>::SharedPtr \x1b[01;31m\x1b[Kpublisher_\x1b[m\x1b[K; // CHANGE para emplear el msg definido en el paquete creado tutorial_interfaces\n'}
+[2.554670] (cpp_pubsub) StderrLine: {'line': b'      |                                                               \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.554822] (cpp_pubsub) StderrLine: {'line': b'      |                                                               \x1b[32m\x1b[Krcl_publisher_t\x1b[m\x1b[K\n'}
+[2.557358] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/migue/ros2_ws/src/cpp_pubsub/src/publisher_member_function.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KMinimalPublisher::MinimalPublisher()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.557541] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/migue/ros2_ws/src/cpp_pubsub/src/publisher_member_function.cpp:33:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kpublisher_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Krcl_publisher_t\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.557637] (cpp_pubsub) StderrLine: {'line': b'   33 |     \x1b[01;31m\x1b[Kpublisher_\x1b[m\x1b[K = this->create_publisher<tutorial_interfaces::msg::Num>("topic", 10);    // CHANGE para emplear el msg definido en el paquete creado tutorial_interfaces\n'}
+[2.557710] (cpp_pubsub) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.557781] (cpp_pubsub) StderrLine: {'line': b'      |     \x1b[32m\x1b[Krcl_publisher_t\x1b[m\x1b[K\n'}
+[2.560797] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/migue/ros2_ws/src/cpp_pubsub/src/publisher_member_function.cpp:33:41:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ktutorial_interfaces\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Krcl_interfaces\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.561078] (cpp_pubsub) StderrLine: {'line': b'   33 |     publisher_ = this->create_publisher<\x1b[01;31m\x1b[Ktutorial_interfaces\x1b[m\x1b[K::msg::Num>("topic", 10);    // CHANGE para emplear el msg definido en el paquete creado tutorial_interfaces\n'}
+[2.561250] (cpp_pubsub) StderrLine: {'line': b'      |                                         \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.561419] (cpp_pubsub) StderrLine: {'line': b'      |                                         \x1b[32m\x1b[Krcl_interfaces\x1b[m\x1b[K\n'}
+[2.561568] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/migue/ros2_ws/src/cpp_pubsub/src/publisher_member_function.cpp:33:24:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kparse error in template argument list\n'}
+[2.561725] (cpp_pubsub) StderrLine: {'line': b'   33 |     publisher_ = this->\x1b[01;31m\x1b[Kcreate_publisher<tutorial_interfaces::msg::Num>\x1b[m\x1b[K("topic", 10);    // CHANGE para emplear el msg definido en el paquete creado tutorial_interfaces\n'}
+[2.561882] (cpp_pubsub) StderrLine: {'line': b'      |                        \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.561971] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/migue/ros2_ws/src/cpp_pubsub/src/publisher_member_function.cpp:33:83:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[KMinimalPublisher::create_publisher<<expression error> >(const char [6], int)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.562052] (cpp_pubsub) StderrLine: {'line': b'   33 |     publisher_ = this->create_publisher<tutorial_interfaces::msg::Num>("topic", 10\x1b[01;31m\x1b[K)\x1b[m\x1b[K;    // CHANGE para emplear el msg definido en el paquete creado tutorial_interfaces\n'}
+[2.562131] (cpp_pubsub) StderrLine: {'line': b'      |                                                                                   \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.562203] (cpp_pubsub) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[2.562274] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[2.562344] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[2.562415] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/migue/ros2_ws/src/cpp_pubsub/src/publisher_member_function.cpp:18\x1b[m\x1b[K:\n'}
+[2.562486] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node.hpp:184:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class MessageT, class AllocatorT, class PublisherT> std::shared_ptr<PublisherT> rclcpp::Node::create_publisher(const string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.562562] (cpp_pubsub) StderrLine: {'line': b'  184 |   \x1b[01;36m\x1b[Kcreate_publisher\x1b[m\x1b[K(\n'}
+[2.562634] (cpp_pubsub) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.562704] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node.hpp:184:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[2.562775] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/migue/ros2_ws/src/cpp_pubsub/src/publisher_member_function.cpp:33:83:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[2.562846] (cpp_pubsub) StderrLine: {'line': b'   33 |     publisher_ = this->create_publisher<tutorial_interfaces::msg::Num>("topic", 10\x1b[01;31m\x1b[K)\x1b[m\x1b[K;    // CHANGE para emplear el msg definido en el paquete creado tutorial_interfaces\n'}
+[2.562917] (cpp_pubsub) StderrLine: {'line': b'      |                                                                                   \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.570677] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/migue/ros2_ws/src/cpp_pubsub/src/publisher_member_function.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid MinimalPublisher::timer_callback()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.570997] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/migue/ros2_ws/src/cpp_pubsub/src/publisher_member_function.cpp:42:20:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ktutorial_interfaces\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[2.571161] (cpp_pubsub) StderrLine: {'line': b'   42 |     auto message = \x1b[01;31m\x1b[Ktutorial_interfaces\x1b[m\x1b[K::msg::Num();                               // CHANGE para emplear el msg definido en el paquete creado tutorial_interfaces\n'}
+[2.571321] (cpp_pubsub) StderrLine: {'line': b'      |                    \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.573408] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/migue/ros2_ws/src/cpp_pubsub/src/publisher_member_function.cpp:47:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kpublisher_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Krcl_publisher_t\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.573622] (cpp_pubsub) StderrLine: {'line': b'   47 |     \x1b[01;31m\x1b[Kpublisher_\x1b[m\x1b[K->publish(message);\n'}
+[2.573699] (cpp_pubsub) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.573770] (cpp_pubsub) StderrLine: {'line': b'      |     \x1b[32m\x1b[Krcl_publisher_t\x1b[m\x1b[K\n'}
+[2.607400] (-) TimerEvent: {}
+[2.708030] (-) TimerEvent: {}
+[2.808448] (-) TimerEvent: {}
+[2.907011] (cpp_pubsub) StderrLine: {'line': b'make[2]: *** [CMakeFiles/talker.dir/build.make:63: CMakeFiles/talker.dir/src/publisher_member_function.cpp.o] Error 1\n'}
+[2.907331] (cpp_pubsub) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:107: CMakeFiles/talker.dir/all] Error 2\n'}
+[2.907452] (cpp_pubsub) StderrLine: {'line': b'make[1]: *** Waiting for unfinished jobs....\n'}
+[2.908548] (-) TimerEvent: {}
+[3.008879] (-) TimerEvent: {}
+[3.109382] (-) TimerEvent: {}
+[3.209850] (-) TimerEvent: {}
+[3.310247] (-) TimerEvent: {}
+[3.410636] (-) TimerEvent: {}
+[3.511215] (-) TimerEvent: {}
+[3.611627] (-) TimerEvent: {}
+[3.712063] (-) TimerEvent: {}
+[3.812492] (-) TimerEvent: {}
+[3.912870] (-) TimerEvent: {}
+[4.013289] (-) TimerEvent: {}
+[4.113665] (-) TimerEvent: {}
+[4.214056] (-) TimerEvent: {}
+[4.314453] (-) TimerEvent: {}
+[4.414854] (-) TimerEvent: {}
+[4.515200] (-) TimerEvent: {}
+[4.615592] (-) TimerEvent: {}
+[4.715977] (-) TimerEvent: {}
+[4.816434] (-) TimerEvent: {}
+[4.916858] (-) TimerEvent: {}
+[5.017227] (-) TimerEvent: {}
+[5.117619] (-) TimerEvent: {}
+[5.218004] (-) TimerEvent: {}
+[5.318477] (-) TimerEvent: {}
+[5.418906] (-) TimerEvent: {}
+[5.436001] (cpp_pubsub) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable listener\x1b[0m\n'}
+[5.519072] (-) TimerEvent: {}
+[5.619533] (-) TimerEvent: {}
+[5.699277] (cpp_pubsub) StdoutLine: {'line': b'[ 75%] Built target listener\n'}
+[5.700400] (cpp_pubsub) StderrLine: {'line': b'make: *** [Makefile:141: all] Error 2\n'}
+[5.704874] (cpp_pubsub) CommandEnded: {'returncode': 2}
+[5.719690] (-) TimerEvent: {}
+[5.743910] (cpp_pubsub) JobEnded: {'identifier': 'cpp_pubsub', 'rc': 2}
+[5.754821] (-) EventReactorShutdown: {}

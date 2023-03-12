@@ -1,0 +1,8 @@
+-- Configuring incomplete, errors occurred!
+See also "/home/migue/tf2_ws/build/learning_tf2_cpp/CMakeFiles/CMakeOutput.log".
+See also "/home/migue/tf2_ws/build/learning_tf2_cpp/CMakeFiles/CMakeError.log".
+CMake Error at CMakeLists.txt:72:
+  Parse error.  Expected a command name, got quoted argument with text "".
+
+
+make: *** [Makefile:486: cmake_check_build_system] Error 1

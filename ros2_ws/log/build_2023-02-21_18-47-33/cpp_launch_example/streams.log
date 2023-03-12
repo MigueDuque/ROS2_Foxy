@@ -1,0 +1,1 @@
+[0.215s] Invoking command in '/home/migue/ros2_ws/build/cpp_launch_example': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/migue/ros2_ws/build/cpp_launch_example -- -j12 -l12

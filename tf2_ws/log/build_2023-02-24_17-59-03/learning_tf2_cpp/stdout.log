@@ -1,0 +1,7 @@
+[35m[1mScanning dependencies of target turtle_tf2_listener[0m
+[ 16%] Built target turtle_tf2_broadcaster
+[ 33%] Built target dynamic_frame_tf2_broadcaster
+[ 50%] Built target fixed_frame_tf2_broadcaster
+[ 66%] Built target static_turtle_tf2_broadcaster
+[ 75%] [32mBuilding CXX object CMakeFiles/turtle_tf2_listener_debug.dir/src/turtle_tf2_listener_debug.cpp.o[0m
+[ 83%] [32mBuilding CXX object CMakeFiles/turtle_tf2_listener.dir/src/turtle_tf2_listener.cpp.o[0m

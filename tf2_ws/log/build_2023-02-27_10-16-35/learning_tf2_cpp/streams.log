@@ -1,0 +1,46 @@
+[0.116s] Invoking command in '/home/migue/tf2_ws/build/learning_tf2_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/migue/tf2_ws/build/learning_tf2_cpp -- -j12 -l12
+[0.655s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.735s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.035s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[1.199s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.236s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.553s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.717s] -- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+[1.877s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.880s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.099s] -- Found tf2: 0.13.13 (/opt/ros/foxy/share/tf2/cmake)
+[2.146s] -- Found tf2_ros: 0.13.13 (/opt/ros/foxy/share/tf2_ros/cmake)
+[2.572s] -- Found turtlesim: 1.2.6 (/opt/ros/foxy/share/turtlesim/cmake)
+[2.636s] -- Found tf2_geometry_msgs: 0.13.13 (/opt/ros/foxy/share/tf2_geometry_msgs/cmake)
+[2.702s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/foxy/share/eigen3_cmake_module/cmake)
+[2.739s] -- Found Eigen3: TRUE (found version "3.3.7") 
+[2.786s] -- Found ament_lint_auto: 0.9.7 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[3.001s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.003s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.003s] -- Configured cppcheck include dirs: 
+[3.003s] -- Configured cppcheck exclude dirs and/or files: 
+[3.005s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[3.005s] -- Configured cpplint exclude dirs and/or files: 
+[3.006s] -- Added test 'flake8' to check Python code syntax and style conventions
+[3.007s] -- Added test 'lint_cmake' to check CMake code style
+[3.007s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[3.008s] -- Added test 'uncrustify' to check C / C++ code style
+[3.008s] -- Configured uncrustify additional arguments: 
+[3.009s] -- Added test 'xmllint' to check XML markup files
+[3.012s] -- Configuring done
+[3.074s] CMake Error at CMakeLists.txt:72 (add_executable):
+[3.074s]   Cannot find source file:
+[3.075s] 
+[3.075s]     src/turtle_tf2_listener_debug.cpp
+[3.075s] 
+[3.075s]   Tried extensions .c .C .c++ .cc .cpp .cxx .cu .m .M .mm .h .hh .h++ .hm
+[3.075s]   .hpp .hxx .in .txx
+[3.075s] 
+[3.075s] 
+[3.076s] CMake Error at CMakeLists.txt:72 (add_executable):
+[3.076s]   No SOURCES given to target: turtle_tf2_listener_debug
+[3.076s] 
+[3.076s] 
+[3.076s] CMake Generate step failed.  Build files cannot be regenerated correctly.
+[3.087s] make: *** [Makefile:486: cmake_check_build_system] Error 1
+[3.090s] Invoked command in '/home/migue/tf2_ws/build/learning_tf2_cpp' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/migue/tf2_ws/build/learning_tf2_cpp -- -j12 -l12

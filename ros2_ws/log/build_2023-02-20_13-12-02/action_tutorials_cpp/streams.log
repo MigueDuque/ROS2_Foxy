@@ -1,0 +1,86 @@
+[0.066s] Invoking command in '/home/migue/ros2_ws/build/action_tutorials_cpp': CMAKE_PREFIX_PATH=/home/migue/ros2_ws/install/action_tutorials_interfaces:/home/migue/ros2_ws/install/cpp_srvcli:/home/migue/ros2_ws/install/cpp_pubsub:/home/migue/ros2_ws/install/tutorial_interfaces:/opt/ros/foxy LD_LIBRARY_PATH=/home/migue/ros2_ws/install/action_tutorials_interfaces/lib:/home/migue/ros2_ws/install/tutorial_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/migue/ros2_ws/install/action_tutorials_interfaces/lib/python3.8/site-packages:/home/migue/ros2_ws/install/tutorial_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake /home/migue/ros2_ws/src/action_tutorials_cpp -DCMAKE_INSTALL_PREFIX=/home/migue/ros2_ws/install/action_tutorials_cpp
+[0.111s] -- The C compiler identification is GNU 9.4.0
+[0.159s] -- The CXX compiler identification is GNU 9.4.0
+[0.162s] -- Check for working C compiler: /usr/bin/cc
+[0.227s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.227s] -- Detecting C compiler ABI info
+[0.306s] -- Detecting C compiler ABI info - done
+[0.318s] -- Detecting C compile features
+[0.318s] -- Detecting C compile features - done
+[0.320s] -- Check for working CXX compiler: /usr/bin/c++
+[0.405s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.406s] -- Detecting CXX compiler ABI info
+[0.486s] -- Detecting CXX compiler ABI info - done
+[0.497s] -- Detecting CXX compile features
+[0.497s] -- Detecting CXX compile features - done
+[0.499s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.526s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.526s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.689s] -- Found action_tutorials_interfaces: 0.0.0 (/home/migue/ros2_ws/install/action_tutorials_interfaces/share/action_tutorials_interfaces/cmake)
+[0.713s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.719s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.865s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.895s] -- Found FastRTPS: /opt/ros/foxy/include  
+[0.968s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.131s] -- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+[1.325s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.330s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.367s] -- Looking for pthread.h
+[1.457s] -- Looking for pthread.h - found
+[1.457s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.540s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[1.540s] -- Looking for pthread_create in pthreads
+[1.603s] -- Looking for pthread_create in pthreads - not found
+[1.603s] -- Looking for pthread_create in pthread
+[1.676s] -- Looking for pthread_create in pthread - found
+[1.679s] -- Found Threads: TRUE  
+[1.973s] -- Found rclcpp_action: 2.4.2 (/opt/ros/foxy/share/rclcpp_action/cmake)
+[2.047s] -- Found rclcpp_components: 2.4.2 (/opt/ros/foxy/share/rclcpp_components/cmake)
+[2.217s] -- Found ament_lint_auto: 0.9.7 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[2.286s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.286s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.287s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/migue/ros2_ws/src/action_tutorials_cpp/include>
+[2.287s] -- Configured cppcheck exclude dirs and/or files: 
+[2.288s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.288s] -- Configured cpplint exclude dirs and/or files: 
+[2.288s] -- Added test 'lint_cmake' to check CMake code style
+[2.289s] -- Added test 'uncrustify' to check C / C++ code style
+[2.289s] -- Configured uncrustify additional arguments: 
+[2.289s] -- Added test 'xmllint' to check XML markup files
+[2.292s] -- Configuring done
+[2.303s] -- Generating done
+[2.304s] -- Build files have been written to: /home/migue/ros2_ws/build/action_tutorials_cpp
+[2.312s] Invoked command in '/home/migue/ros2_ws/build/action_tutorials_cpp' returned '0': CMAKE_PREFIX_PATH=/home/migue/ros2_ws/install/action_tutorials_interfaces:/home/migue/ros2_ws/install/cpp_srvcli:/home/migue/ros2_ws/install/cpp_pubsub:/home/migue/ros2_ws/install/tutorial_interfaces:/opt/ros/foxy LD_LIBRARY_PATH=/home/migue/ros2_ws/install/action_tutorials_interfaces/lib:/home/migue/ros2_ws/install/tutorial_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/migue/ros2_ws/install/action_tutorials_interfaces/lib/python3.8/site-packages:/home/migue/ros2_ws/install/tutorial_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake /home/migue/ros2_ws/src/action_tutorials_cpp -DCMAKE_INSTALL_PREFIX=/home/migue/ros2_ws/install/action_tutorials_cpp
+[2.315s] Invoking command in '/home/migue/ros2_ws/build/action_tutorials_cpp': CMAKE_PREFIX_PATH=/home/migue/ros2_ws/install/action_tutorials_interfaces:/home/migue/ros2_ws/install/cpp_srvcli:/home/migue/ros2_ws/install/cpp_pubsub:/home/migue/ros2_ws/install/tutorial_interfaces:/opt/ros/foxy LD_LIBRARY_PATH=/home/migue/ros2_ws/install/action_tutorials_interfaces/lib:/home/migue/ros2_ws/install/tutorial_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/migue/ros2_ws/install/action_tutorials_interfaces/lib/python3.8/site-packages:/home/migue/ros2_ws/install/tutorial_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --build /home/migue/ros2_ws/build/action_tutorials_cpp -- -j12 -l12
+[2.361s] [35m[1mScanning dependencies of target action_server[0m
+[2.362s] [35m[1mScanning dependencies of target fibonacci_action_server[0m
+[2.867s] [ 25%] [32mBuilding CXX object CMakeFiles/fibonacci_action_server.dir/rclcpp_components/node_main_fibonacci_action_server.cpp.o[0m
+[2.888s] [ 50%] [32mBuilding CXX object CMakeFiles/action_server.dir/src/fibonacci_action_server.cpp.o[0m
+[5.549s] [ 75%] [32m[1mLinking CXX executable fibonacci_action_server[0m
+[5.822s] [100%] [32m[1mLinking CXX shared library libaction_server.so[0m
+[6.588s] [100%] Built target fibonacci_action_server
+[6.595s] [100%] Built target action_server
+[6.611s] Invoked command in '/home/migue/ros2_ws/build/action_tutorials_cpp' returned '0': CMAKE_PREFIX_PATH=/home/migue/ros2_ws/install/action_tutorials_interfaces:/home/migue/ros2_ws/install/cpp_srvcli:/home/migue/ros2_ws/install/cpp_pubsub:/home/migue/ros2_ws/install/tutorial_interfaces:/opt/ros/foxy LD_LIBRARY_PATH=/home/migue/ros2_ws/install/action_tutorials_interfaces/lib:/home/migue/ros2_ws/install/tutorial_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/migue/ros2_ws/install/action_tutorials_interfaces/lib/python3.8/site-packages:/home/migue/ros2_ws/install/tutorial_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --build /home/migue/ros2_ws/build/action_tutorials_cpp -- -j12 -l12
+[6.785s] Invoking command in '/home/migue/ros2_ws/build/action_tutorials_cpp': CMAKE_PREFIX_PATH=/home/migue/ros2_ws/install/action_tutorials_interfaces:/home/migue/ros2_ws/install/cpp_srvcli:/home/migue/ros2_ws/install/cpp_pubsub:/home/migue/ros2_ws/install/tutorial_interfaces:/opt/ros/foxy LD_LIBRARY_PATH=/home/migue/ros2_ws/install/action_tutorials_interfaces/lib:/home/migue/ros2_ws/install/tutorial_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/migue/ros2_ws/install/action_tutorials_interfaces/lib/python3.8/site-packages:/home/migue/ros2_ws/install/tutorial_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --install /home/migue/ros2_ws/build/action_tutorials_cpp
+[6.792s] -- Install configuration: ""
+[6.793s] -- Installing: /home/migue/ros2_ws/install/action_tutorials_cpp/lib/action_tutorials_cpp/fibonacci_action_server
+[6.793s] -- Set runtime path of "/home/migue/ros2_ws/install/action_tutorials_cpp/lib/action_tutorials_cpp/fibonacci_action_server" to ""
+[6.793s] -- Installing: /home/migue/ros2_ws/install/action_tutorials_cpp/lib/libaction_server.so
+[6.794s] -- Set runtime path of "/home/migue/ros2_ws/install/action_tutorials_cpp/lib/libaction_server.so" to ""
+[6.794s] -- Installing: /home/migue/ros2_ws/install/action_tutorials_cpp/share/ament_index/resource_index/package_run_dependencies/action_tutorials_cpp
+[6.794s] -- Installing: /home/migue/ros2_ws/install/action_tutorials_cpp/share/ament_index/resource_index/parent_prefix_path/action_tutorials_cpp
+[6.795s] -- Installing: /home/migue/ros2_ws/install/action_tutorials_cpp/share/action_tutorials_cpp/environment/ament_prefix_path.sh
+[6.795s] -- Installing: /home/migue/ros2_ws/install/action_tutorials_cpp/share/action_tutorials_cpp/environment/ament_prefix_path.dsv
+[6.795s] -- Installing: /home/migue/ros2_ws/install/action_tutorials_cpp/share/action_tutorials_cpp/environment/path.sh
+[6.795s] -- Installing: /home/migue/ros2_ws/install/action_tutorials_cpp/share/action_tutorials_cpp/environment/path.dsv
+[6.795s] -- Installing: /home/migue/ros2_ws/install/action_tutorials_cpp/share/action_tutorials_cpp/local_setup.bash
+[6.795s] -- Installing: /home/migue/ros2_ws/install/action_tutorials_cpp/share/action_tutorials_cpp/local_setup.sh
+[6.795s] -- Installing: /home/migue/ros2_ws/install/action_tutorials_cpp/share/action_tutorials_cpp/local_setup.zsh
+[6.796s] -- Installing: /home/migue/ros2_ws/install/action_tutorials_cpp/share/action_tutorials_cpp/local_setup.dsv
+[6.796s] -- Installing: /home/migue/ros2_ws/install/action_tutorials_cpp/share/action_tutorials_cpp/package.dsv
+[6.796s] -- Installing: /home/migue/ros2_ws/install/action_tutorials_cpp/share/ament_index/resource_index/packages/action_tutorials_cpp
+[6.796s] -- Installing: /home/migue/ros2_ws/install/action_tutorials_cpp/share/ament_index/resource_index/rclcpp_components/action_tutorials_cpp
+[6.796s] -- Installing: /home/migue/ros2_ws/install/action_tutorials_cpp/share/action_tutorials_cpp/cmake/action_tutorials_cppConfig.cmake
+[6.796s] -- Installing: /home/migue/ros2_ws/install/action_tutorials_cpp/share/action_tutorials_cpp/cmake/action_tutorials_cppConfig-version.cmake
+[6.796s] -- Installing: /home/migue/ros2_ws/install/action_tutorials_cpp/share/action_tutorials_cpp/package.xml
+[6.798s] Invoked command in '/home/migue/ros2_ws/build/action_tutorials_cpp' returned '0': CMAKE_PREFIX_PATH=/home/migue/ros2_ws/install/action_tutorials_interfaces:/home/migue/ros2_ws/install/cpp_srvcli:/home/migue/ros2_ws/install/cpp_pubsub:/home/migue/ros2_ws/install/tutorial_interfaces:/opt/ros/foxy LD_LIBRARY_PATH=/home/migue/ros2_ws/install/action_tutorials_interfaces/lib:/home/migue/ros2_ws/install/tutorial_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/migue/ros2_ws/install/action_tutorials_interfaces/lib/python3.8/site-packages:/home/migue/ros2_ws/install/tutorial_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --install /home/migue/ros2_ws/build/action_tutorials_cpp

@@ -1,0 +1,21 @@
+[0.718s] Invoking command in '/home/migue/tf2_ws/src/learning_tf2_py': PYTHONPATH=/home/migue/tf2_ws/build/learning_tf2_py/prefix_override:/home/migue/tf2_ws/install/learning_tf2_py/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/learning_tf2_py build --build-base /home/migue/tf2_ws/build/learning_tf2_py/build install --record /home/migue/tf2_ws/build/learning_tf2_py/install.log --install-scripts $base/lib/learning_tf2_py --single-version-externally-managed
+[0.891s] running egg_info
+[0.892s] writing ../../build/learning_tf2_py/learning_tf2_py.egg-info/PKG-INFO
+[0.892s] writing dependency_links to ../../build/learning_tf2_py/learning_tf2_py.egg-info/dependency_links.txt
+[0.892s] writing entry points to ../../build/learning_tf2_py/learning_tf2_py.egg-info/entry_points.txt
+[0.892s] writing requirements to ../../build/learning_tf2_py/learning_tf2_py.egg-info/requires.txt
+[0.893s] writing top-level names to ../../build/learning_tf2_py/learning_tf2_py.egg-info/top_level.txt
+[0.922s] reading manifest file '../../build/learning_tf2_py/learning_tf2_py.egg-info/SOURCES.txt'
+[0.922s] writing manifest file '../../build/learning_tf2_py/learning_tf2_py.egg-info/SOURCES.txt'
+[0.923s] running build
+[0.923s] running build_py
+[0.923s] running install
+[0.924s] running install_lib
+[0.925s] running install_data
+[0.925s] running install_egg_info
+[0.927s] removing '/home/migue/tf2_ws/install/learning_tf2_py/lib/python3.8/site-packages/learning_tf2_py-0.0.0-py3.8.egg-info' (and everything under it)
+[0.927s] Copying ../../build/learning_tf2_py/learning_tf2_py.egg-info to /home/migue/tf2_ws/install/learning_tf2_py/lib/python3.8/site-packages/learning_tf2_py-0.0.0-py3.8.egg-info
+[0.927s] running install_scripts
+[0.943s] Installing turtle_tf2_message_broadcaster script to /home/migue/tf2_ws/install/learning_tf2_py/lib/learning_tf2_py
+[0.943s] writing list of installed files to '/home/migue/tf2_ws/build/learning_tf2_py/install.log'
+[0.983s] Invoked command in '/home/migue/tf2_ws/src/learning_tf2_py' returned '0': PYTHONPATH=/home/migue/tf2_ws/build/learning_tf2_py/prefix_override:/home/migue/tf2_ws/install/learning_tf2_py/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/learning_tf2_py build --build-base /home/migue/tf2_ws/build/learning_tf2_py/build install --record /home/migue/tf2_ws/build/learning_tf2_py/install.log --install-scripts $base/lib/learning_tf2_py --single-version-externally-managed

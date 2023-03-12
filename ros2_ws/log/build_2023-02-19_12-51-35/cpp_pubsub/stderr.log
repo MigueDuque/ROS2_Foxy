@@ -1,0 +1,53 @@
+[01m[K/home/migue/ros2_ws/src/cpp_pubsub/src/publisher_member_function.cpp:51:21:[m[K [01;31m[Kerror: [m[K‘[01m[Ktutorial_interfaces[m[K’ was not declared in this scope; did you mean ‘[01m[Krcl_interfaces[m[K’?
+   51 |   rclcpp::Publisher<[01;31m[Ktutorial_interfaces[m[K::msg::Num>::SharedPtr publisher_; // CHANGE para emplear el msg definido en el paquete creado tutorial_interfaces
+      |                     [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+      |                     [32m[Krcl_interfaces[m[K
+[01m[K/home/migue/ros2_ws/src/cpp_pubsub/src/publisher_member_function.cpp:51:50:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   51 |   rclcpp::Publisher<tutorial_interfaces::msg::Num[01;31m[K>[m[K::SharedPtr publisher_; // CHANGE para emplear el msg definido en el paquete creado tutorial_interfaces
+      |                                                  [01;31m[K^[m[K
+[01m[K/home/migue/ros2_ws/src/cpp_pubsub/src/publisher_member_function.cpp:51:53:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   51 |   rclcpp::Publisher<tutorial_interfaces::msg::Num>::[01;31m[KSharedPtr[m[K publisher_; // CHANGE para emplear el msg definido en el paquete creado tutorial_interfaces
+      |                                                     [01;31m[K^~~~~~~~~[m[K
+      |                                                              [32m[K;[m[K
+[01m[K/home/migue/ros2_ws/src/cpp_pubsub/src/publisher_member_function.cpp:51:63:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ does not name a type; did you mean ‘[01m[Krcl_publisher_t[m[K’?
+   51 |   rclcpp::Publisher<tutorial_interfaces::msg::Num>::SharedPtr [01;31m[Kpublisher_[m[K; // CHANGE para emplear el msg definido en el paquete creado tutorial_interfaces
+      |                                                               [01;31m[K^~~~~~~~~~[m[K
+      |                                                               [32m[Krcl_publisher_t[m[K
+[01m[K/home/migue/ros2_ws/src/cpp_pubsub/src/publisher_member_function.cpp:[m[K In constructor ‘[01m[KMinimalPublisher::MinimalPublisher()[m[K’:
+[01m[K/home/migue/ros2_ws/src/cpp_pubsub/src/publisher_member_function.cpp:33:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Krcl_publisher_t[m[K’?
+   33 |     [01;31m[Kpublisher_[m[K = this->create_publisher<tutorial_interfaces::msg::Num>("topic", 10);    // CHANGE para emplear el msg definido en el paquete creado tutorial_interfaces
+      |     [01;31m[K^~~~~~~~~~[m[K
+      |     [32m[Krcl_publisher_t[m[K
+[01m[K/home/migue/ros2_ws/src/cpp_pubsub/src/publisher_member_function.cpp:33:41:[m[K [01;31m[Kerror: [m[K‘[01m[Ktutorial_interfaces[m[K’ was not declared in this scope; did you mean ‘[01m[Krcl_interfaces[m[K’?
+   33 |     publisher_ = this->create_publisher<[01;31m[Ktutorial_interfaces[m[K::msg::Num>("topic", 10);    // CHANGE para emplear el msg definido en el paquete creado tutorial_interfaces
+      |                                         [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+      |                                         [32m[Krcl_interfaces[m[K
+[01m[K/home/migue/ros2_ws/src/cpp_pubsub/src/publisher_member_function.cpp:33:24:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+   33 |     publisher_ = this->[01;31m[Kcreate_publisher<tutorial_interfaces::msg::Num>[m[K("topic", 10);    // CHANGE para emplear el msg definido en el paquete creado tutorial_interfaces
+      |                        [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/migue/ros2_ws/src/cpp_pubsub/src/publisher_member_function.cpp:33:83:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KMinimalPublisher::create_publisher<<expression error> >(const char [6], int)[m[K’
+   33 |     publisher_ = this->create_publisher<tutorial_interfaces::msg::Num>("topic", 10[01;31m[K)[m[K;    // CHANGE para emplear el msg definido en el paquete creado tutorial_interfaces
+      |                                                                                   [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+                 from [01m[K/home/migue/ros2_ws/src/cpp_pubsub/src/publisher_member_function.cpp:18[m[K:
+[01m[K/opt/ros/foxy/include/rclcpp/node.hpp:184:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class AllocatorT, class PublisherT> std::shared_ptr<PublisherT> rclcpp::Node::create_publisher(const string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)[m[K’
+  184 |   [01;36m[Kcreate_publisher[m[K(
+      |   [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/foxy/include/rclcpp/node.hpp:184:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/migue/ros2_ws/src/cpp_pubsub/src/publisher_member_function.cpp:33:83:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   33 |     publisher_ = this->create_publisher<tutorial_interfaces::msg::Num>("topic", 10[01;31m[K)[m[K;    // CHANGE para emplear el msg definido en el paquete creado tutorial_interfaces
+      |                                                                                   [01;31m[K^[m[K
+[01m[K/home/migue/ros2_ws/src/cpp_pubsub/src/publisher_member_function.cpp:[m[K In member function ‘[01m[Kvoid MinimalPublisher::timer_callback()[m[K’:
+[01m[K/home/migue/ros2_ws/src/cpp_pubsub/src/publisher_member_function.cpp:42:20:[m[K [01;31m[Kerror: [m[K‘[01m[Ktutorial_interfaces[m[K’ has not been declared
+   42 |     auto message = [01;31m[Ktutorial_interfaces[m[K::msg::Num();                               // CHANGE para emplear el msg definido en el paquete creado tutorial_interfaces
+      |                    [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/migue/ros2_ws/src/cpp_pubsub/src/publisher_member_function.cpp:47:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Krcl_publisher_t[m[K’?
+   47 |     [01;31m[Kpublisher_[m[K->publish(message);
+      |     [01;31m[K^~~~~~~~~~[m[K
+      |     [32m[Krcl_publisher_t[m[K
+make[2]: *** [CMakeFiles/talker.dir/build.make:63: CMakeFiles/talker.dir/src/publisher_member_function.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:107: CMakeFiles/talker.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+make: *** [Makefile:141: all] Error 2

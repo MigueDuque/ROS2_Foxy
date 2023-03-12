@@ -1,0 +1,60 @@
+[0.099s] Invoking command in '/home/migue/tf2_ws/build/learning_tf2_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/migue/tf2_ws/build/learning_tf2_cpp -- -j12 -l12
+[0.127s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.148s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.312s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[0.383s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.386s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.535s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.604s] -- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.633s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.634s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.747s] -- Found tf2: 0.13.13 (/opt/ros/foxy/share/tf2/cmake)
+[0.755s] -- Found tf2_ros: 0.13.13 (/opt/ros/foxy/share/tf2_ros/cmake)
+[1.032s] -- Found turtlesim: 1.2.6 (/opt/ros/foxy/share/turtlesim/cmake)
+[1.082s] -- Found ament_lint_auto: 0.9.7 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.150s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.151s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.151s] -- Configured cppcheck include dirs: 
+[1.151s] -- Configured cppcheck exclude dirs and/or files: 
+[1.152s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.152s] -- Configured cpplint exclude dirs and/or files: 
+[1.152s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.152s] -- Added test 'lint_cmake' to check CMake code style
+[1.153s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[1.154s] -- Added test 'uncrustify' to check C / C++ code style
+[1.154s] -- Configured uncrustify additional arguments: 
+[1.154s] -- Added test 'xmllint' to check XML markup files
+[1.157s] -- Configuring done
+[1.180s] -- Generating done
+[1.182s] -- Build files have been written to: /home/migue/tf2_ws/build/learning_tf2_cpp
+[1.220s] [35m[1mScanning dependencies of target turtle_tf2_listener[0m
+[1.246s] [ 33%] Built target static_turtle_tf2_broadcaster
+[1.247s] [ 66%] Built target turtle_tf2_broadcaster
+[1.468s] [ 83%] [32mBuilding CXX object CMakeFiles/turtle_tf2_listener.dir/src/turtle_tf2_listener.cpp.o[0m
+[5.208s] [100%] [32m[1mLinking CXX executable turtle_tf2_listener[0m
+[5.477s] [100%] Built target turtle_tf2_listener
+[5.492s] Invoked command in '/home/migue/tf2_ws/build/learning_tf2_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/migue/tf2_ws/build/learning_tf2_cpp -- -j12 -l12
+[5.549s] Invoking command in '/home/migue/tf2_ws/build/learning_tf2_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/migue/tf2_ws/build/learning_tf2_cpp
+[5.560s] -- Install configuration: ""
+[5.560s] -- Up-to-date: /home/migue/tf2_ws/install/learning_tf2_cpp/lib/learning_tf2_cpp/static_turtle_tf2_broadcaster
+[5.560s] -- Up-to-date: /home/migue/tf2_ws/install/learning_tf2_cpp/lib/learning_tf2_cpp/turtle_tf2_broadcaster
+[5.560s] -- Installing: /home/migue/tf2_ws/install/learning_tf2_cpp/lib/learning_tf2_cpp/turtle_tf2_listener
+[5.561s] -- Set runtime path of "/home/migue/tf2_ws/install/learning_tf2_cpp/lib/learning_tf2_cpp/turtle_tf2_listener" to ""
+[5.561s] -- Up-to-date: /home/migue/tf2_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/launch
+[5.561s] -- Installing: /home/migue/tf2_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/launch/turtle_tf2_demo.launch.py
+[5.562s] -- Up-to-date: /home/migue/tf2_ws/install/learning_tf2_cpp/share/ament_index/resource_index/package_run_dependencies/learning_tf2_cpp
+[5.562s] -- Installing: /home/migue/tf2_ws/install/learning_tf2_cpp/share/ament_index/resource_index/parent_prefix_path/learning_tf2_cpp
+[5.562s] -- Up-to-date: /home/migue/tf2_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/environment/ament_prefix_path.sh
+[5.562s] -- Installing: /home/migue/tf2_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/environment/ament_prefix_path.dsv
+[5.562s] -- Up-to-date: /home/migue/tf2_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/environment/path.sh
+[5.562s] -- Installing: /home/migue/tf2_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/environment/path.dsv
+[5.562s] -- Up-to-date: /home/migue/tf2_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/local_setup.bash
+[5.562s] -- Up-to-date: /home/migue/tf2_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/local_setup.sh
+[5.562s] -- Up-to-date: /home/migue/tf2_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/local_setup.zsh
+[5.562s] -- Installing: /home/migue/tf2_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/local_setup.dsv
+[5.563s] -- Installing: /home/migue/tf2_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/package.dsv
+[5.563s] -- Up-to-date: /home/migue/tf2_ws/install/learning_tf2_cpp/share/ament_index/resource_index/packages/learning_tf2_cpp
+[5.563s] -- Up-to-date: /home/migue/tf2_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/cmake/learning_tf2_cppConfig.cmake
+[5.563s] -- Up-to-date: /home/migue/tf2_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/cmake/learning_tf2_cppConfig-version.cmake
+[5.563s] -- Up-to-date: /home/migue/tf2_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/package.xml
+[5.566s] Invoked command in '/home/migue/tf2_ws/build/learning_tf2_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/migue/tf2_ws/build/learning_tf2_cpp

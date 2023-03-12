@@ -1,0 +1,29 @@
+[0.012s] Invoking command in '/home/migue/ros2_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/migue/ros2_ws/build/cpp_pubsub -- -j12 -l12
+[0.052s] [35m[1mScanning dependencies of target talker[0m
+[0.067s] [ 50%] Built target listener
+[0.074s] [ 75%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o[0m
+[2.512s] [100%] [32m[1mLinking CXX executable talker[0m
+[2.675s] [100%] Built target talker
+[2.689s] Invoked command in '/home/migue/ros2_ws/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/migue/ros2_ws/build/cpp_pubsub -- -j12 -l12
+[2.730s] Invoking command in '/home/migue/ros2_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/migue/ros2_ws/build/cpp_pubsub
+[2.737s] -- Install configuration: ""
+[2.737s] -- Installing: /home/migue/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/talker
+[2.738s] -- Set runtime path of "/home/migue/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/talker" to ""
+[2.738s] -- Installing: /home/migue/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/listener
+[2.740s] -- Set runtime path of "/home/migue/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/listener" to ""
+[2.740s] -- Installing: /home/migue/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/package_run_dependencies/cpp_pubsub
+[2.740s] -- Up-to-date: /home/migue/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/parent_prefix_path/cpp_pubsub
+[2.741s] -- Up-to-date: /home/migue/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.sh
+[2.741s] -- Installing: /home/migue/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.dsv
+[2.741s] -- Up-to-date: /home/migue/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.sh
+[2.741s] -- Installing: /home/migue/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.dsv
+[2.741s] -- Up-to-date: /home/migue/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.bash
+[2.741s] -- Up-to-date: /home/migue/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.sh
+[2.741s] -- Up-to-date: /home/migue/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.zsh
+[2.741s] -- Installing: /home/migue/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.dsv
+[2.741s] -- Installing: /home/migue/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/package.dsv
+[2.741s] -- Up-to-date: /home/migue/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/packages/cpp_pubsub
+[2.741s] -- Up-to-date: /home/migue/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig.cmake
+[2.741s] -- Up-to-date: /home/migue/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig-version.cmake
+[2.741s] -- Installing: /home/migue/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/package.xml
+[2.743s] Invoked command in '/home/migue/ros2_ws/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/migue/ros2_ws/build/cpp_pubsub

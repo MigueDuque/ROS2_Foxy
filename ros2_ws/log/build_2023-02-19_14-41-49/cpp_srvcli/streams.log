@@ -1,0 +1,29 @@
+[0.026s] Invoking command in '/home/migue/ros2_ws/build/cpp_srvcli': CMAKE_PREFIX_PATH=/home/migue/ros2_ws/install/tutorial_interfaces:/home/migue/ros2_ws/install/cpp_srvcli:/home/migue/ros2_ws/install/cpp_pubsub:/opt/ros/foxy /usr/bin/cmake --build /home/migue/ros2_ws/build/cpp_srvcli -- -j12 -l12
+[0.082s] [35m[1mScanning dependencies of target client[0m
+[0.102s] [ 50%] Built target server
+[0.108s] [ 75%] [32mBuilding CXX object CMakeFiles/client.dir/src/add_two_ints_client.cpp.o[0m
+[2.146s] [100%] [32m[1mLinking CXX executable client[0m
+[2.292s] [100%] Built target client
+[2.308s] Invoked command in '/home/migue/ros2_ws/build/cpp_srvcli' returned '0': CMAKE_PREFIX_PATH=/home/migue/ros2_ws/install/tutorial_interfaces:/home/migue/ros2_ws/install/cpp_srvcli:/home/migue/ros2_ws/install/cpp_pubsub:/opt/ros/foxy /usr/bin/cmake --build /home/migue/ros2_ws/build/cpp_srvcli -- -j12 -l12
+[2.345s] Invoking command in '/home/migue/ros2_ws/build/cpp_srvcli': CMAKE_PREFIX_PATH=/home/migue/ros2_ws/install/tutorial_interfaces:/home/migue/ros2_ws/install/cpp_srvcli:/home/migue/ros2_ws/install/cpp_pubsub:/opt/ros/foxy /usr/bin/cmake --install /home/migue/ros2_ws/build/cpp_srvcli
+[2.357s] -- Install configuration: ""
+[2.357s] -- Installing: /home/migue/ros2_ws/install/cpp_srvcli/lib/cpp_srvcli/server
+[2.357s] -- Set runtime path of "/home/migue/ros2_ws/install/cpp_srvcli/lib/cpp_srvcli/server" to ""
+[2.357s] -- Installing: /home/migue/ros2_ws/install/cpp_srvcli/lib/cpp_srvcli/client
+[2.358s] -- Set runtime path of "/home/migue/ros2_ws/install/cpp_srvcli/lib/cpp_srvcli/client" to ""
+[2.358s] -- Installing: /home/migue/ros2_ws/install/cpp_srvcli/share/ament_index/resource_index/package_run_dependencies/cpp_srvcli
+[2.358s] -- Up-to-date: /home/migue/ros2_ws/install/cpp_srvcli/share/ament_index/resource_index/parent_prefix_path/cpp_srvcli
+[2.358s] -- Up-to-date: /home/migue/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/environment/ament_prefix_path.sh
+[2.358s] -- Installing: /home/migue/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/environment/ament_prefix_path.dsv
+[2.359s] -- Up-to-date: /home/migue/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/environment/path.sh
+[2.359s] -- Installing: /home/migue/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/environment/path.dsv
+[2.359s] -- Up-to-date: /home/migue/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.bash
+[2.359s] -- Up-to-date: /home/migue/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.sh
+[2.359s] -- Up-to-date: /home/migue/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.zsh
+[2.359s] -- Installing: /home/migue/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.dsv
+[2.359s] -- Installing: /home/migue/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/package.dsv
+[2.359s] -- Up-to-date: /home/migue/ros2_ws/install/cpp_srvcli/share/ament_index/resource_index/packages/cpp_srvcli
+[2.359s] -- Up-to-date: /home/migue/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/cmake/cpp_srvcliConfig.cmake
+[2.360s] -- Up-to-date: /home/migue/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/cmake/cpp_srvcliConfig-version.cmake
+[2.360s] -- Installing: /home/migue/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/package.xml
+[2.368s] Invoked command in '/home/migue/ros2_ws/build/cpp_srvcli' returned '0': CMAKE_PREFIX_PATH=/home/migue/ros2_ws/install/tutorial_interfaces:/home/migue/ros2_ws/install/cpp_srvcli:/home/migue/ros2_ws/install/cpp_pubsub:/opt/ros/foxy /usr/bin/cmake --install /home/migue/ros2_ws/build/cpp_srvcli

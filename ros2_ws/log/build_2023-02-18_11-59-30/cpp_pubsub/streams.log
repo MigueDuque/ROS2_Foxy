@@ -1,0 +1,46 @@
+[0.026s] Invoking command in '/home/migue/ros2_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/migue/ros2_ws/src/cpp_pubsub -DCMAKE_INSTALL_PREFIX=/home/migue/ros2_ws/install/cpp_pubsub
+[1.927s] -- The C compiler identification is GNU 9.4.0
+[3.085s] -- The CXX compiler identification is GNU 9.4.0
+[3.136s] -- Check for working C compiler: /usr/bin/cc
+[3.282s] -- Check for working C compiler: /usr/bin/cc -- works
+[3.284s] -- Detecting C compiler ABI info
+[3.354s] -- Detecting C compiler ABI info - done
+[3.364s] -- Detecting C compile features
+[3.364s] -- Detecting C compile features - done
+[3.367s] -- Check for working CXX compiler: /usr/bin/c++
+[3.457s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[3.459s] -- Detecting CXX compiler ABI info
+[3.543s] -- Detecting CXX compiler ABI info - done
+[3.558s] -- Detecting CXX compile features
+[3.558s] -- Detecting CXX compile features - done
+[3.642s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[3.757s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[3.757s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[4.084s] -- Found ament_lint_auto: 0.9.7 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[4.246s] -- Added test 'copyright' to check source files copyright and LICENSE
+[4.249s] -- Added test 'lint_cmake' to check CMake code style
+[4.249s] -- Added test 'xmllint' to check XML markup files
+[4.251s] -- Configuring done
+[4.253s] -- Generating done
+[4.253s] -- Build files have been written to: /home/migue/ros2_ws/build/cpp_pubsub
+[4.256s] Invoked command in '/home/migue/ros2_ws/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/migue/ros2_ws/src/cpp_pubsub -DCMAKE_INSTALL_PREFIX=/home/migue/ros2_ws/install/cpp_pubsub
+[4.262s] Invoking command in '/home/migue/ros2_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/migue/ros2_ws/build/cpp_pubsub -- -j12 -l12
+[4.294s] Invoked command in '/home/migue/ros2_ws/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/migue/ros2_ws/build/cpp_pubsub -- -j12 -l12
+[4.328s] Invoking command in '/home/migue/ros2_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/migue/ros2_ws/build/cpp_pubsub
+[4.338s] -- Install configuration: ""
+[4.339s] -- Installing: /home/migue/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/package_run_dependencies/cpp_pubsub
+[4.339s] -- Installing: /home/migue/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/parent_prefix_path/cpp_pubsub
+[4.339s] -- Installing: /home/migue/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.sh
+[4.339s] -- Installing: /home/migue/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.dsv
+[4.340s] -- Installing: /home/migue/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.sh
+[4.340s] -- Installing: /home/migue/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.dsv
+[4.340s] -- Installing: /home/migue/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.bash
+[4.340s] -- Installing: /home/migue/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.sh
+[4.340s] -- Installing: /home/migue/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.zsh
+[4.340s] -- Installing: /home/migue/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.dsv
+[4.340s] -- Installing: /home/migue/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/package.dsv
+[4.340s] -- Installing: /home/migue/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/packages/cpp_pubsub
+[4.340s] -- Installing: /home/migue/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig.cmake
+[4.340s] -- Installing: /home/migue/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig-version.cmake
+[4.340s] -- Installing: /home/migue/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/package.xml
+[4.342s] Invoked command in '/home/migue/ros2_ws/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/migue/ros2_ws/build/cpp_pubsub

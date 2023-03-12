@@ -1,0 +1,46 @@
+[0.019s] Invoking command in '/home/migue/ros2_ws/build/tutorial_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/migue/ros2_ws/src/tutorial_interfaces -DCMAKE_INSTALL_PREFIX=/home/migue/ros2_ws/install/tutorial_interfaces
+[1.678s] -- The C compiler identification is GNU 9.4.0
+[2.994s] -- The CXX compiler identification is GNU 9.4.0
+[3.000s] -- Check for working C compiler: /usr/bin/cc
+[3.079s] -- Check for working C compiler: /usr/bin/cc -- works
+[3.082s] -- Detecting C compiler ABI info
+[3.183s] -- Detecting C compiler ABI info - done
+[3.198s] -- Detecting C compile features
+[3.230s] -- Detecting C compile features - done
+[3.235s] -- Check for working CXX compiler: /usr/bin/c++
+[3.314s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[3.316s] -- Detecting CXX compiler ABI info
+[3.405s] -- Detecting CXX compiler ABI info - done
+[3.419s] -- Detecting CXX compile features
+[3.420s] -- Detecting CXX compile features - done
+[3.468s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[3.496s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[3.496s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.705s] -- Found ament_lint_auto: 0.9.7 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[3.763s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.764s] -- Added test 'lint_cmake' to check CMake code style
+[3.765s] -- Added test 'xmllint' to check XML markup files
+[3.767s] -- Configuring done
+[3.768s] -- Generating done
+[3.769s] -- Build files have been written to: /home/migue/ros2_ws/build/tutorial_interfaces
+[3.773s] Invoked command in '/home/migue/ros2_ws/build/tutorial_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/migue/ros2_ws/src/tutorial_interfaces -DCMAKE_INSTALL_PREFIX=/home/migue/ros2_ws/install/tutorial_interfaces
+[3.776s] Invoking command in '/home/migue/ros2_ws/build/tutorial_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/migue/ros2_ws/build/tutorial_interfaces -- -j12 -l12
+[3.823s] Invoked command in '/home/migue/ros2_ws/build/tutorial_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/migue/ros2_ws/build/tutorial_interfaces -- -j12 -l12
+[3.856s] Invoking command in '/home/migue/ros2_ws/build/tutorial_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/migue/ros2_ws/build/tutorial_interfaces
+[3.868s] -- Install configuration: ""
+[3.868s] -- Installing: /home/migue/ros2_ws/install/tutorial_interfaces/share/ament_index/resource_index/package_run_dependencies/tutorial_interfaces
+[3.868s] -- Installing: /home/migue/ros2_ws/install/tutorial_interfaces/share/ament_index/resource_index/parent_prefix_path/tutorial_interfaces
+[3.868s] -- Installing: /home/migue/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/ament_prefix_path.sh
+[3.868s] -- Installing: /home/migue/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/ament_prefix_path.dsv
+[3.869s] -- Installing: /home/migue/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/path.sh
+[3.869s] -- Installing: /home/migue/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/path.dsv
+[3.869s] -- Installing: /home/migue/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.bash
+[3.869s] -- Installing: /home/migue/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.sh
+[3.869s] -- Installing: /home/migue/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.zsh
+[3.869s] -- Installing: /home/migue/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.dsv
+[3.870s] -- Installing: /home/migue/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/package.dsv
+[3.870s] -- Installing: /home/migue/ros2_ws/install/tutorial_interfaces/share/ament_index/resource_index/packages/tutorial_interfaces
+[3.871s] -- Installing: /home/migue/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfacesConfig.cmake
+[3.871s] -- Installing: /home/migue/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfacesConfig-version.cmake
+[3.871s] -- Installing: /home/migue/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/package.xml
+[3.872s] Invoked command in '/home/migue/ros2_ws/build/tutorial_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/migue/ros2_ws/build/tutorial_interfaces
